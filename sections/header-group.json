@@ -1,0 +1,23 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "announcement_text": "Free shipping and returns over $50",
+        "announcement_closable": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "desktop_logo_width": 100,
+        "mobile_logo_width": 80,
+        "sticky_index": true,
+        "sticky_collection": true
+      }
+    }
+  },
+  "order": ["announcement-bar", "header"]
+}
