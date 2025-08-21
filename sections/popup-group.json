@@ -1,0 +1,30 @@
+{
+  "type": "custom.popups",
+  "name": "t:sections.popup-group.name",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "blocks": {
+        "reminder-block": {
+          "type": "header",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "reminder-block"
+      ],
+      "settings": {},
+      "disabled": true
+    },
+    "age-verification-popup": {
+      "type": "age-verification-popup",
+      "settings": {},
+      "disabled": true
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "age-verification-popup"
+  ]
+}
