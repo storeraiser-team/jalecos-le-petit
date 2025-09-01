@@ -77,6 +77,18 @@
         "divider": true
       }
     },
+    "featured_collection_rQh64j": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Escolha por Cor e Tecido",
+        "home_featured_products": "jalecos-femininos",
+        "per_row": 5,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured-collection-switcher": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -501,6 +513,7 @@
   "order": [
     "hero_video_9MhMia",
     "text_columns_wVjApJ",
+    "featured_collection_rQh64j",
     "featured-collection-switcher",
     "collection-callout",
     "hero-video",
