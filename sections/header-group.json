@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:sections.header-group.name",
@@ -5,7 +14,8 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "settings": {
-        "announcement_text": "Free shipping and returns over $50",
+        "announcement_text": "Envio no mesmo dia para pedidos até 15h",
+        "announcement_link": "",
         "announcement_closable": false
       }
     },
@@ -14,10 +24,17 @@
       "settings": {
         "desktop_logo_width": 100,
         "mobile_logo_width": 80,
+        "main_menu_link_list": "main-menu",
+        "hover_menu": true,
+        "main_menu_alignment": "left-center",
+        "header_sticky": true,
         "sticky_index": true,
         "sticky_collection": true
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
