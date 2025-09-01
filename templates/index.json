@@ -22,7 +22,7 @@
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "overlay_opacity": 0,
         "section_height": "100vh",
-        "mobile_height": "auto"
+        "mobile_height": "100vh"
       }
     },
     "featured-collection-switcher": {
