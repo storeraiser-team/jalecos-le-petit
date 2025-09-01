@@ -25,6 +25,58 @@
         "mobile_height": "100vh"
       }
     },
+    "text_columns_wVjApJ": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_TkRRC4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 60,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_jY38hn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 60,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LqRyXH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 60,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_TkRRC4",
+        "text_block_jY38hn",
+        "text_block_LqRyXH"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": true
+      }
+    },
     "featured-collection-switcher": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -448,6 +500,7 @@
   },
   "order": [
     "hero_video_9MhMia",
+    "text_columns_wVjApJ",
     "featured-collection-switcher",
     "collection-callout",
     "hero-video",
