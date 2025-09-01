@@ -77,6 +77,18 @@
         "divider": true
       }
     },
+    "featured_collection_tFTtmX": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Destaques da Semana",
+        "home_featured_products": "jalecos-femininos",
+        "per_row": 5,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "collection-callout": {
       "type": "collection-callout",
       "settings": {
@@ -490,6 +502,7 @@
   "order": [
     "hero_video_9MhMia",
     "text_columns_wVjApJ",
+    "featured_collection_tFTtmX",
     "collection-callout",
     "hero-video",
     "rich-text",
