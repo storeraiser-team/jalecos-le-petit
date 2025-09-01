@@ -177,6 +177,18 @@
         "lazyload_images": true
       }
     },
+    "featured_collection_Tmyxrc": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Pijamas que acompanham seu ritmo",
+        "home_featured_products": "",
+        "per_row": 5,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "collection-callout": {
       "type": "collection-callout",
       "settings": {
@@ -593,6 +605,7 @@
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
     "text_and_image_WgJwaK",
+    "featured_collection_Tmyxrc",
     "collection-callout",
     "hero-video",
     "rich-text",
