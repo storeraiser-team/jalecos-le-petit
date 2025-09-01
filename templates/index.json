@@ -13,15 +13,15 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "Bring your\nbrand to life.",
-        "title_size": 84,
-        "subheading": "Seamless hero videos",
+        "title": "Uniformes que unem design e resistência",
+        "title_size": 58,
+        "subheading": "Jalecos, pijamas e fardamentos premium, prontos para a sua rotina.",
         "link_text": "Optional button",
         "link": "",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "overlay_opacity": 0,
-        "section_height": "650px",
+        "section_height": "100vh",
         "mobile_height": "auto"
       }
     },
