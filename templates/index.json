@@ -156,6 +156,27 @@
         "enable_gutter": false
       }
     },
+    "text_and_image_WgJwaK": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Mais que uniformes, uma marca feita para você",
+        "text": "<p>Desde 2015, criamos peças que combinam qualidade, conforto e propósito. Atendimento humano, design diferenciado e pronta-entrega de verdade.</p>",
+        "button_label": "Conheça nossa história",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "collection-callout": {
       "type": "collection-callout",
       "settings": {
@@ -571,6 +592,7 @@
     "text_columns_wVjApJ",
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
+    "text_and_image_WgJwaK",
     "collection-callout",
     "hero-video",
     "rich-text",
