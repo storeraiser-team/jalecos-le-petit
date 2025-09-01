@@ -89,6 +89,73 @@
         "divider": false
       }
     },
+    "featured_collections_Nxya8e": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xMGPWr": {
+          "type": "collection",
+          "settings": {
+            "collection": "pijamas-cirurgicos-femininos",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        },
+        "collection_fMPBJf": {
+          "type": "collection",
+          "settings": {
+            "collection": "jalecos-femininos",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_CUhAFJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "jalecos-masculinos",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_W8yYjf": {
+          "type": "collection",
+          "settings": {
+            "collection": "macacoes",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_iQP4kz": {
+          "type": "collection",
+          "settings": {
+            "collection": "pijamas-cirurgicos-masculinos",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_AVGWGw": {
+          "type": "collection",
+          "settings": {
+            "collection": "promocoes",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xMGPWr",
+        "collection_fMPBJf",
+        "collection_CUhAFJ",
+        "collection_W8yYjf",
+        "collection_iQP4kz",
+        "collection_AVGWGw"
+      ],
+      "name": "t:sections.featured-collections.presets.collection_list.name",
+      "settings": {
+        "title": "Escolha por Cor e Tecido",
+        "divider": true,
+        "enable_gutter": false
+      }
+    },
     "collection-callout": {
       "type": "collection-callout",
       "settings": {
@@ -503,6 +570,7 @@
     "hero_video_9MhMia",
     "text_columns_wVjApJ",
     "featured_collection_tFTtmX",
+    "featured_collections_Nxya8e",
     "collection-callout",
     "hero-video",
     "rich-text",
