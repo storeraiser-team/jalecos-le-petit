@@ -298,7 +298,7 @@
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",
-        "image_width": "33",
+        "image_width": "50",
         "image_mask": "none",
         "image_position": "right",
         "color_background": "#f9f9f9",
