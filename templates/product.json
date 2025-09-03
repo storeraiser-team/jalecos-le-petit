@@ -148,6 +148,27 @@
         "divider": false
       }
     },
+    "text_and_image_kHfyFX": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Desenvolvido para sua rotina",
+        "text": "<p>Criado com tecidos de nanotecnologia, conforto de alta performance e design autoral da Le Petit. Uma peça que reflete a excelência da nossa marca.<br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "settings": {
@@ -170,6 +191,7 @@
   "order": [
     "main",
     "text_with_icons_CqHAde",
+    "text_and_image_kHfyFX",
     "sub",
     "product-recommendations",
     "collection-return"
