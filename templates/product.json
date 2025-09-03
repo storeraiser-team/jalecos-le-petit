@@ -253,6 +253,49 @@
         "color_text": "#1c1d1d"
       }
     },
+    "faq_8we9Qx": {
+      "type": "faq",
+      "blocks": {
+        "question_qafxL4": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_hN7H6h": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_hThRTe": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_XUcVaj": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_qafxL4",
+        "question_hN7H6h",
+        "question_hThRTe",
+        "question_XUcVaj"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "FAQs"
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "settings": {
@@ -279,6 +322,7 @@
     "text_and_image_nRHWNp",
     "featured_video_hRAVYm",
     "testimonials_cinGHX",
+    "faq_8we9Qx",
     "sub",
     "product-recommendations",
     "collection-return"
