@@ -263,7 +263,7 @@
         "button_label": "Como chegar",
         "button_link": "shopify://collections",
         "layout": "left",
-        "height": 550,
+        "height": 650,
         "parallax": true,
         "parallax_direction": "top",
         "lazyload_images": true
