@@ -296,8 +296,25 @@
         "title": "FAQs"
       }
     },
+    "background_image_text_9YVGjC": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "Mais que uniformes",
+        "text": "<p>Cada peça é feita para trazer confiança, conforto e propósito à sua rotina.</p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 650,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
     "sub": {
       "type": "product-full-width",
+      "disabled": true,
       "settings": {
         "max_width": true
       }
@@ -323,6 +340,7 @@
     "featured_video_hRAVYm",
     "testimonials_cinGHX",
     "faq_8we9Qx",
+    "background_image_text_9YVGjC",
     "sub",
     "product-recommendations",
     "collection-return"
