@@ -178,6 +178,70 @@
         "lazyload_images": true
       }
     },
+    "testimonials_9yPXaH": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Cc7BQK": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“Qualidade impecável e entrega super rápida.”</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_VdXWa8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_QHHfK4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_TNqwkg": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "testimonial_nPMC7m": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Cc7BQK",
+        "testimonial_VdXWa8",
+        "testimonial_QHHfK4",
+        "testimonial_TNqwkg",
+        "testimonial_nPMC7m"
+      ],
+      "name": "t:sections.testimonials.presets.customer_testimonials.name",
+      "settings": {
+        "title": "O que dizem de nós",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
     "featured_collection_Tmyxrc": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -606,6 +670,7 @@
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
     "text_and_image_WgJwaK",
+    "testimonials_9yPXaH",
     "featured_collection_Tmyxrc",
     "collection-callout",
     "hero-video",
