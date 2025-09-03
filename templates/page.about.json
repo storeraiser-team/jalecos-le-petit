@@ -118,41 +118,41 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "2015",
+            "text": "<p>Nasce a Le Petit Jalecos a partir da paixão de Deise e sua mãe costureira, trazendo cuidado artesanal às primeiras peças.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
-        "text_block_z47ALR": {
+        "text_block_m4J7HU": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "2020",
+            "text": "<p>A marca se formaliza e dá início ao foco total no e-commerce, expandindo seu alcance e consolidando o atendimento humanizado.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
-        "text_block_Mfwpac": {
+        "text_block_bYMhUz": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "2015",
+            "text": "<p>Nasce a Le Petit Jalecos a partir da paixão de Deise e sua mãe costureira, trazendo cuidado artesanal às primeiras peças.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "text_block_jN4qbQ",
-        "text_block_z47ALR",
-        "text_block_Mfwpac"
+        "text_block_m4J7HU",
+        "text_block_bYMhUz"
       ],
       "name": "t:sections.text-columns.presets.text_columns_with_images.name",
       "settings": {
