@@ -78,58 +78,6 @@
         "divider": false
       }
     },
-    "text_columns_wVjApJ": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_TkRRC4": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 60,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_jY38hn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 60,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_LqRyXH": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 60,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_TkRRC4",
-        "text_block_jY38hn",
-        "text_block_LqRyXH"
-      ],
-      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": true
-      }
-    },
     "featured_collection_tFTtmX": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -224,9 +172,9 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
+        "divider": true,
+        "top_padding": false,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
@@ -655,7 +603,6 @@
   "order": [
     "hero_video_9MhMia",
     "text_with_icons_RK3bxE",
-    "text_columns_wVjApJ",
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
     "text_and_image_WgJwaK",
