@@ -253,6 +253,22 @@
         "lazyload_images": true
       }
     },
+    "background_image_text_iHB3Cz": {
+      "type": "background-image-text",
+      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
+      "settings": {
+        "subtitle": "",
+        "title": "Visite nossa loja em Moema",
+        "text": "<p>Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.</p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
     "featured_collection_Tmyxrc": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -683,6 +699,7 @@
     "text_and_image_WgJwaK",
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
+    "background_image_text_iHB3Cz",
     "featured_collection_Tmyxrc",
     "collection-callout",
     "hero-video",
