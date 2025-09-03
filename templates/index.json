@@ -269,6 +269,44 @@
         "lazyload_images": true
       }
     },
+    "newsletter_mGWUip": {
+      "type": "newsletter",
+      "blocks": {
+        "title_aUxytc": {
+          "type": "title",
+          "settings": {
+            "title": "entre para a nossa lista exclusiva",
+            "heading_size": "h2"
+          }
+        },
+        "text_jCP9nL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receba novidades, lançamentos e benefícios especiais em primeira mão.</p>"
+          }
+        },
+        "form_6eLFJi": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_aUxytc",
+        "text_jCP9nL",
+        "form_6eLFJi"
+      ],
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
     "featured_collection_Tmyxrc": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -700,6 +738,7 @@
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
     "background_image_text_iHB3Cz",
+    "newsletter_mGWUip",
     "featured_collection_Tmyxrc",
     "collection-callout",
     "hero-video",
