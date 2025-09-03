@@ -232,6 +232,27 @@
         "color_text": "#1c1d1d"
       }
     },
+    "text_and_image_rpi4wk": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Elas usam Le Petit",
+        "text": "<p>Inspire-se em quem já veste a marca.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": true,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
     "featured_collection_Tmyxrc": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -661,6 +682,7 @@
     "featured_collections_Nxya8e",
     "text_and_image_WgJwaK",
     "testimonials_9yPXaH",
+    "text_and_image_rpi4wk",
     "featured_collection_Tmyxrc",
     "collection-callout",
     "hero-video",
