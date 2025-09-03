@@ -186,44 +186,35 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>“Qualidade impecável e entrega super rápida.”</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "author": "Ana Paula",
+            "author_info": "São Paulo – SP"
           }
         },
         "testimonial_VdXWa8": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>“O bordado personalizado fez toda diferença no meu jaleco.”</p>",
+            "author": "Fernanda Oliveira",
+            "author_info": "Fortaleza – CE"
           }
         },
         "testimonial_QHHfK4": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>“Conforto e caimento perfeitos, uso todos os dias no consultório.”</p>",
+            "author": "Dr. Ricardo Mendes",
+            "author_info": "Belo Horizonte – MG"
           }
         },
         "testimonial_TNqwkg": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_nPMC7m": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>“Finalmente jalecos que unem estilo e praticidade.”</p>",
+            "author": "Camila Rocha",
+            "author_info": "Rio de Janeiro – RJ"
           }
         }
       },
@@ -231,8 +222,7 @@
         "testimonial_Cc7BQK",
         "testimonial_VdXWa8",
         "testimonial_QHHfK4",
-        "testimonial_TNqwkg",
-        "testimonial_nPMC7m"
+        "testimonial_TNqwkg"
       ],
       "name": "t:sections.testimonials.presets.customer_testimonials.name",
       "settings": {
