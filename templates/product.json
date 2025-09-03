@@ -71,17 +71,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "contact": {
-          "type": "contact",
-          "settings": {
-            "title": "Ask a question",
-            "phone": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {}
         }
       },
       "block_order": [
@@ -93,9 +82,7 @@
         "sales_point",
         "sales_point_dxVP4W",
         "sales_point_Kx77HM",
-        "tab",
-        "contact",
-        "share"
+        "tab"
       ],
       "settings": {
         "sku_enable": false,
