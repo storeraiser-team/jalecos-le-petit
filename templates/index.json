@@ -25,6 +25,59 @@
         "mobile_height": "100vh"
       }
     },
+    "text_with_icons_RK3bxE": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_Xz987T": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Envio rápido",
+            "text": ""
+          }
+        },
+        "text_block_Y78EJW": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Tecidos premium",
+            "text": ""
+          }
+        },
+        "text_block_Rarenn": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Bordado",
+            "text": ""
+          }
+        },
+        "text_block_UYBKTX": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Atendimento humano",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Xz987T",
+        "text_block_Y78EJW",
+        "text_block_Rarenn",
+        "text_block_UYBKTX"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "text_columns_wVjApJ": {
       "type": "text-columns",
       "blocks": {
@@ -601,6 +654,7 @@
   },
   "order": [
     "hero_video_9MhMia",
+    "text_with_icons_RK3bxE",
     "text_columns_wVjApJ",
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
