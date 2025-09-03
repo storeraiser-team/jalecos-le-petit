@@ -31,7 +31,7 @@
       ],
       "settings": {
         "collection_image_enable": true,
-        "collection_image_height": 650,
+        "collection_image_height": 550,
         "parallax": true,
         "parallax_direction": "top",
         "enable_sidebar": true,
