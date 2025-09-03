@@ -169,6 +169,27 @@
         "lazyload_images": true
       }
     },
+    "text_and_image_nRHWNp": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Feito com propósito, pensado para você",
+        "text": "<p>Cada jaleco e fardamento da Le Petit nasce de um cuidado especial: tecidos selecionados, design autoral e produção própria. Nossa missão é unir estética, conforto e durabilidade para profissionais que não abrem mão da excelência.”</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "settings": {
@@ -192,6 +213,7 @@
     "main",
     "text_with_icons_CqHAde",
     "text_and_image_kHfyFX",
+    "text_and_image_nRHWNp",
     "sub",
     "product-recommendations",
     "collection-return"
