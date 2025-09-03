@@ -90,6 +90,22 @@
         "divider": false
       }
     },
+    "collection_callout_Qtehre": {
+      "type": "collection-callout",
+      "name": "t:sections.collection-callout.presets.collection_callout.name",
+      "settings": {
+        "collection": "",
+        "subtitle": "Brand new",
+        "title": "Destaques da Semana",
+        "text": "Nossos produtos mais procurados, prontos para envio.",
+        "cta_text1": "Ver todos os lançamentos",
+        "cta_link1": "shopify://collections",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "featured_collection_tFTtmX": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -336,6 +352,7 @@
     "hero_video_9MhMia",
     "text_with_icons_RK3bxE",
     "featured_collection_switcher_fe9FJa",
+    "collection_callout_Qtehre",
     "featured_collection_tFTtmX",
     "featured_collections_Nxya8e",
     "text_and_image_WgJwaK",
