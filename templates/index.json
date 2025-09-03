@@ -82,9 +82,9 @@
       "type": "featured-collection-switcher",
       "name": "t:sections.featured-collection-switcher.presets.collection_switcher.name",
       "settings": {
-        "title": "Most popular",
-        "collection1": "",
-        "collection2": "",
+        "title": "PRINCIPAIS ESCOLHAS",
+        "collection1": "jalecos-femininos",
+        "collection2": "jalecos-masculinos",
         "per_row": 4,
         "view_all": true,
         "divider": false
