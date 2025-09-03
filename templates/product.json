@@ -199,6 +199,60 @@
         "divider": false
       }
     },
+    "testimonials_cinGHX": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_RV6Jx9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“Qualidade impecável e entrega super rápida.”</p>",
+            "author": "Ana Paula",
+            "author_info": "São Paulo – SP"
+          }
+        },
+        "testimonial_YeyP7V": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“O bordado personalizado fez toda diferença no meu jaleco.”</p>",
+            "author": "Fernanda Oliveira",
+            "author_info": "Fortaleza – CE"
+          }
+        },
+        "testimonial_HDzpw7": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“Conforto e caimento perfeitos, uso todos os dias no consultório.”</p>",
+            "author": "Dr. Ricardo Mendes",
+            "author_info": "Belo Horizonte – MG"
+          }
+        },
+        "testimonial_hfyRK3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“Finalmente jalecos que unem estilo e praticidade.”</p>",
+            "author": "Camila Rocha",
+            "author_info": "Rio de Janeiro – RJ"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_RV6Jx9",
+        "testimonial_YeyP7V",
+        "testimonial_HDzpw7",
+        "testimonial_hfyRK3"
+      ],
+      "name": "t:sections.testimonials.presets.customer_testimonials.name",
+      "settings": {
+        "title": "O que dizem de nós",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "settings": {
@@ -224,6 +278,7 @@
     "text_and_image_kHfyFX",
     "text_and_image_nRHWNp",
     "featured_video_hRAVYm",
+    "testimonials_cinGHX",
     "sub",
     "product-recommendations",
     "collection-return"
