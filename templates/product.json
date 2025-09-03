@@ -46,15 +46,22 @@
         "sales_point": {
           "type": "sales_point",
           "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
+            "icon": "truck",
+            "text": "Envio hoje para pedidos até 15h"
           }
         },
-        "inventory_status": {
-          "type": "inventory_status",
+        "sales_point_dxVP4W": {
+          "type": "sales_point",
           "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
+            "icon": "shield",
+            "text": "Troca grátis em até 7 dias"
+          }
+        },
+        "sales_point_Kx77HM": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "heart",
+            "text": "Bordado disponível"
           }
         },
         "tab": {
@@ -84,7 +91,8 @@
         "variant_picker",
         "buy_buttons",
         "sales_point",
-        "inventory_status",
+        "sales_point_dxVP4W",
+        "sales_point_Kx77HM",
         "tab",
         "contact",
         "share"
