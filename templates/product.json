@@ -95,6 +95,59 @@
         "product_video_style": "muted"
       }
     },
+    "text_with_icons_CqHAde": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_wPTEiN": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Envio rápido",
+            "text": ""
+          }
+        },
+        "text_block_ir3BWc": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Tecidos premium",
+            "text": ""
+          }
+        },
+        "text_block_VbqUnc": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Bordado",
+            "text": ""
+          }
+        },
+        "text_block_mwqfVy": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Atendimento humano",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_wPTEiN",
+        "text_block_ir3BWc",
+        "text_block_VbqUnc",
+        "text_block_mwqfVy"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "settings": {
@@ -116,6 +169,7 @@
   },
   "order": [
     "main",
+    "text_with_icons_CqHAde",
     "sub",
     "product-recommendations",
     "collection-return"
