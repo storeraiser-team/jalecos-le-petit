@@ -142,8 +142,8 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "2015",
-            "text": "<p>Nasce a Le Petit Jalecos a partir da paixão de Deise e sua mãe costureira, trazendo cuidado artesanal às primeiras peças.</p>",
+            "title": "Hoje",
+            "text": "<p>A Le Petit se destaca pela pronta entrega, design autoral e atendimento próximo. Somos referência em jalecos e fardamentos premium.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -232,7 +232,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "title": "Contact us",
+        "title": "Fale conosco",
         "text": "",
         "show_phone": false,
         "narrow_column": true
