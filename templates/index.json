@@ -106,16 +106,20 @@
         "divider": false
       }
     },
-    "featured_collection_tFTtmX": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
+    "hero_video_ihJzji": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "Destaques da Semana",
-        "home_featured_products": "jalecos-femininos",
-        "per_row": 5,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
+        "title": "Bring your\nbrand to life.",
+        "title_size": 84,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "auto"
       }
     },
     "featured_collections_Nxya8e": {
@@ -183,6 +187,61 @@
         "title": "Escolha por Cor e Tecido",
         "divider": true,
         "enable_gutter": false
+      }
+    },
+    "featured_product_pJ3YeP": {
+      "type": "featured-product",
+      "blocks": {
+        "price_BmGNhC": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator_7ppKaB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker_4Tj8Pd": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_ttRGtX": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description_PtdBHg": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "price_BmGNhC",
+        "separator_7ppKaB",
+        "variant_picker_4Tj8Pd",
+        "buy_buttons_ttRGtX",
+        "description_PtdBHg"
+      ],
+      "name": "t:sections.featured-product.presets.featured_product.name",
+      "settings": {
+        "featured_product": "jaleco-feminino-manga-longa-nude-lille",
+        "divider": false,
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     },
     "text_and_image_WgJwaK": {
@@ -353,8 +412,9 @@
     "text_with_icons_RK3bxE",
     "featured_collection_switcher_fe9FJa",
     "collection_callout_Qtehre",
-    "featured_collection_tFTtmX",
+    "hero_video_ihJzji",
     "featured_collections_Nxya8e",
+    "featured_product_pJ3YeP",
     "text_and_image_WgJwaK",
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
