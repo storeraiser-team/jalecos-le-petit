@@ -109,30 +109,55 @@
         "divider": false
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "text_columns_xbpkXi": {
+      "type": "text-columns",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "text_block_jN4qbQ": {
+          "type": "text_block",
           "settings": {
-            "title": "Rich text"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "text": {
-          "type": "text",
+        "text_block_z47ALR": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_Mfwpac": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text_block_jN4qbQ",
+        "text_block_z47ALR",
+        "text_block_Mfwpac"
       ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
       "settings": {
+        "title": "",
         "align_text": "center",
-        "narrow_column": true,
         "divider": false
       }
     },
@@ -257,7 +282,7 @@
     "slideshow",
     "text_and_image_icXQCp",
     "text_with_icons_iJLmWg",
-    "rich-text",
+    "text_columns_xbpkXi",
     "logo_list_7iiqbJ",
     "background_image_text_3Edwbe",
     "featured-collection",
