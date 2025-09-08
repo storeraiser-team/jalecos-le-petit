@@ -151,6 +151,7 @@
         "map_address": "Av. Açocê, 492 - Indianópolis, São Paulo - SP, 04075-023",
         "api_key": "",
         "show_button": true,
+        "background_image": "shopify://shop_images/5.webp",
         "lazyload_images": true
       }
     }
