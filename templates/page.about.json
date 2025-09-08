@@ -20,9 +20,9 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "title": "Quem somos",
-            "title_size": 80,
-            "subheading": "A história por trás da qualidade e confiança",
+            "title": "De 2015 até hoje",
+            "title_size": 44,
+            "subheading": "Nascemos de uma paixão pelo design e pela costura, transformando jalecos em peças de sofisticação e propósito.",
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
@@ -103,7 +103,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false
