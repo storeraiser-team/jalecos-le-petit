@@ -331,7 +331,7 @@
       "settings": {
         "title": "O que dizem de nós",
         "round_images": true,
-        "color_background": "#f9f9f9",
+        "color_background": "#f2f2f2",
         "color_text": "#1c1d1d"
       }
     },
