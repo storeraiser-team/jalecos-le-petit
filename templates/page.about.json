@@ -81,10 +81,10 @@
         "image_9jF86j"
       ],
       "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
+        "section_height": "550px",
+        "mobile_height": "300px",
         "parallax": true,
-        "style": "arrows",
+        "style": "minimal",
         "autoplay": true,
         "autoplay_speed": 7,
         "lazyload_images": true
