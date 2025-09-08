@@ -26,13 +26,58 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T135903.271.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 26
+          }
+        },
+        "image_eUbkYk": {
+          "type": "image",
+          "settings": {
+            "title": "Mais que uniformes",
+            "title_size": 44,
+            "subheading": "Cada jaleco é feito para trazer confiança, conforto e identidade à rotina de profissionais da saúde e estética.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
             "parallax_direction": "top",
             "overlay_opacity": 0
+          }
+        },
+        "image_wHP6Mn": {
+          "type": "image",
+          "settings": {
+            "title": "Inovação em cada detalhe",
+            "title_size": 44,
+            "subheading": "Tecidos selecionados, design autoral e pronta entrega fazem parte da essência da Le Petit.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T135903.271.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 26
+          }
+        },
+        "image_9jF86j": {
+          "type": "image",
+          "settings": {
+            "title": "De Moema para todo o Brasil",
+            "title_size": 44,
+            "subheading": "Além do online, nossa loja física em São Paulo reforça a confiança e proximidade com cada cliente.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T135903.271.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 26
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "slideshow-0",
+        "image_eUbkYk",
+        "image_wHP6Mn",
+        "image_9jF86j"
       ],
       "settings": {
         "section_height": "650px",
