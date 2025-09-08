@@ -193,22 +193,6 @@
         "lazyload_images": true
       }
     },
-    "collection_callout_mRFnX9": {
-      "type": "collection-callout",
-      "name": "t:sections.collection-callout.presets.collection_callout.name",
-      "settings": {
-        "collection": "pijamas-cirurgicos",
-        "subtitle": "",
-        "title": "Pijamas Cirúrgicos",
-        "text": "Conforto e caimento impecáveis para longas jornadas.",
-        "cta_text1": "Comprar Pijamas",
-        "cta_link1": "",
-        "cta_text2": "Shop All Mens",
-        "cta_link2": "",
-        "layout": "right",
-        "divider": false
-      }
-    },
     "collection_callout_Qtehre": {
       "type": "collection-callout",
       "name": "t:sections.collection-callout.presets.collection_callout.name",
@@ -448,7 +432,6 @@
     "featured_collections_Nxya8e",
     "featured_collection_MgQHkP",
     "text_and_image_WgJwaK",
-    "collection_callout_mRFnX9",
     "collection_callout_Qtehre",
     "hero_video_ihJzji",
     "featured_product_pJ3YeP",
