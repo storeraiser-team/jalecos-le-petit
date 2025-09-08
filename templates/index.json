@@ -55,7 +55,7 @@
         "text_block_UYBKTX": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
+            "icon": "thumbs-up",
             "title": "Atendimento humano",
             "text": ""
           }
