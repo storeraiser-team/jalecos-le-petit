@@ -197,7 +197,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Image_fx_-_2025-09-08T141350.971.png",
-            "image_mask": "none",
+            "image_mask": "portrait",
             "image_width": 650,
             "title": "2015",
             "text": "<p>Nasce a Le Petit Jalecos a partir da paixão de Deise e sua mãe costureira, trazendo cuidado artesanal às primeiras peças.</p>",
@@ -210,7 +210,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Image_fx_-_2025-09-08T141409.546.png",
-            "image_mask": "none",
+            "image_mask": "portrait",
             "image_width": 650,
             "title": "2020",
             "text": "<p>A marca se formaliza e dá início ao foco total no e-commerce, expandindo seu alcance e consolidando o atendimento humanizado.</p>",
@@ -223,7 +223,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify://shop_images/Image_fx_-_2025-09-08T141432.563.png",
-            "image_mask": "none",
+            "image_mask": "portrait",
             "image_width": 650,
             "title": "Hoje",
             "text": "<p>A Le Petit se destaca pela pronta entrega, design autoral e atendimento próximo. Somos referência em jalecos e fardamentos premium.</p>",
@@ -285,7 +285,7 @@
         "divider": false
       }
     },
-    "background_image_text_3Edwbe": {
+    "background_image_text_Qmb8qi": {
       "type": "background-image-text",
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
@@ -294,6 +294,7 @@
         "text": "<p>Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.</p>",
         "button_label": "Como chegar",
         "button_link": "shopify://collections",
+        "image": "shopify://shop_images/Image_fx_-_2025-09-08T131601.136_upscayl_3x_upscayl-standard-4x.png",
         "layout": "left",
         "height": 650,
         "parallax": true,
@@ -305,7 +306,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Compre os clássicos",
-        "home_featured_products": "acessorios",
+        "home_featured_products": "pijamas-cirurgicos-femininos",
         "per_row": 4,
         "rows": 1,
         "view_all": true,
@@ -368,7 +369,7 @@
     "text_with_icons_iJLmWg",
     "text_columns_xbpkXi",
     "logo_list_7iiqbJ",
-    "background_image_text_3Edwbe",
+    "background_image_text_Qmb8qi",
     "featured-collection",
     "form",
     "newsletter_Maf8PN"
