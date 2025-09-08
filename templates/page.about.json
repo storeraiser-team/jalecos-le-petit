@@ -177,6 +177,7 @@
         "text_block_3PrX4F",
         "text_block_XcJTRq"
       ],
+      "disabled": true,
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "",
