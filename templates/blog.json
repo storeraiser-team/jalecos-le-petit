@@ -1,1 +1,76 @@
-{"sections":{"main":{"type":"blog-template","settings":{}},"featured-collections":{"type":"featured-collections","blocks":{"collection1":{"type":"collection","settings":{}},"collection2":{"type":"collection","settings":{}},"collection3":{"type":"collection","settings":{}},"collection4":{"type":"collection","settings":{}}},"block_order":["collection1","collection2","collection3","collection4"],"settings":{"title":"You may also like"}}},"order":["main","featured-collections"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_tag_filter": false,
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
+      ],
+      "settings": {
+        "title": "You may also like",
+        "divider": false,
+        "enable_gutter": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured-collections"
+  ]
+}
