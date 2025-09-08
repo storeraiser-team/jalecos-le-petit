@@ -213,16 +213,16 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "Bring your\nbrand to life.",
-        "title_size": 84,
-        "subheading": "",
+        "title": "Sinta o caimento. Veja o detalhe.",
+        "title_size": 56,
+        "subheading": "Jalecos premium com design autoral, conforto real e pronta entrega.",
         "link_text": "",
         "link": "",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://www.youtube.com/watch?v=NwZR6X7rz1I&ab_channel=JalecosLePetit",
-        "overlay_opacity": 0,
-        "section_height": "550px",
-        "mobile_height": "auto"
+        "overlay_opacity": 24,
+        "section_height": "100vh",
+        "mobile_height": "400px"
       }
     },
     "featured_product_pJ3YeP": {
