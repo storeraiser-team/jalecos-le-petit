@@ -192,12 +192,28 @@
         "lazyload_images": true
       }
     },
+    "hero_video_4NEdhC": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://www.youtube.com/watch?v=aeItLHk12p4&ab_channel=JalecosLePetit",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "500px"
+      }
+    },
     "featured_video_hRAVYm": {
       "type": "featured-video",
       "name": "t:sections.featured-video.presets.video.name",
       "settings": {
         "title": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=aeItLHk12p4&ab_channel=JalecosLePetit",
         "divider": false
       }
     },
@@ -340,6 +356,7 @@
     "text_with_icons_GnANgc",
     "text_and_image_kHfyFX",
     "text_and_image_nRHWNp",
+    "hero_video_4NEdhC",
     "featured_video_hRAVYm",
     "testimonials_cinGHX",
     "faq_8we9Qx",
