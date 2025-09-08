@@ -98,11 +98,43 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "advanced_content_J6HmpV": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_mgKMwE": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_6H7gxx": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_mgKMwE",
+        "liquid_6H7gxx"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "slideshow_LmF83j",
-    "text_with_icons_ePkYXH"
+    "text_with_icons_ePkYXH",
+    "advanced_content_J6HmpV"
   ]
 }
