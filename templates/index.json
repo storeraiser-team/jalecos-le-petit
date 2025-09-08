@@ -153,7 +153,7 @@
       "name": "t:sections.featured-collections.presets.collection_list.name",
       "settings": {
         "title": "Escolha por Cor e Tecido",
-        "divider": true,
+        "divider": false,
         "enable_gutter": false
       }
     },
@@ -216,8 +216,8 @@
         "title": "Sinta o caimento. Veja o detalhe.",
         "title_size": 44,
         "subheading": "Jalecos premium com design autoral, conforto real e pronta entrega.",
-        "link_text": "",
-        "link": "",
+        "link_text": "Comprar Jalecos",
+        "link": "shopify://collections",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://www.youtube.com/watch?v=NwZR6X7rz1I&ab_channel=JalecosLePetit",
         "overlay_opacity": 24,
