@@ -26,9 +26,9 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Image_fx_-_2025-09-08T140507.189_upscayl_3x_upscayl-standard-4x.png",
+            "image": "shopify://shop_images/4.webp",
             "parallax_direction": "top",
-            "overlay_opacity": 26
+            "overlay_opacity": 24
           }
         }
       },
@@ -114,7 +114,7 @@
         "image_hWNG8f": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/4.webp",
+            "image": "shopify://shop_images/3.webp",
             "link": "",
             "width": "50%",
             "alignment": "center"
