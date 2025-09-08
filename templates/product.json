@@ -175,6 +175,7 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
+        "image": "shopify://shop_images/Image_fx_-_2025-09-08T133715.960.png",
         "image_mask": "portrait",
         "image2_mask": "portrait",
         "subtitle": "",
