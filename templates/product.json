@@ -270,29 +270,29 @@
         "question_qafxL4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "O jaleco está disponível para pronta entrega?",
+            "text": "<p><strong>Sim.</strong> Todos os nossos jalecos, incluindo o <strong>Branco França</strong>, estão em estoque para envio imediato. Pedidos confirmados até às 15h são postados no mesmo dia.</p>"
           }
         },
         "question_hN7H6h": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Qual é o tecido utilizado neste jaleco?",
+            "text": "<p>O <strong>Jaleco Branco França</strong> é confeccionado com <strong>tecidos premium de alta performance</strong>, que unem conforto, respirabilidade e durabilidade. Conta ainda com <strong>acabamento de nanotecnologia</strong>, que garante toque macio e caimento impecável.</p>"
           }
         },
         "question_hThRTe": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Posso personalizar com meu nome e profissão?",
+            "text": "<p><strong>Sim.</strong> Oferecemos a opção de <strong>bordado personalizado</strong> diretamente no jaleco, com prazo de produção de até 24h adicionais. Essa personalização dá um toque exclusivo e profissional à sua peça.</p>"
           }
         },
         "question_XUcVaj": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "Como escolher o tamanho ideal?",
+            "text": "<p>Na página do produto você encontra nosso <strong>Guia de Medidas</strong>, desenvolvido especialmente para facilitar a escolha. Basta comparar suas medidas com a tabela para garantir o caimento perfeito.</p>"
           }
         }
       },
