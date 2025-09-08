@@ -217,7 +217,7 @@
         "title_size": 44,
         "subheading": "Jalecos premium com design autoral, conforto real e pronta entrega.",
         "link_text": "Ver todos os produtos",
-        "link": "shopify://collections",
+        "link": "shopify://collections/all",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://www.youtube.com/watch?v=NwZR6X7rz1I&ab_channel=JalecosLePetit",
         "overlay_opacity": 24,

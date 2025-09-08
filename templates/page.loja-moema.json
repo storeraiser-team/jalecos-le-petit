@@ -12,9 +12,74 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "fading_images_ARCPXr": {
+      "type": "fading-images",
+      "blocks": {
+        "image_Xxj9Yx": {
+          "type": "image",
+          "settings": {
+            "slide_title1": "Visite nossa loja em Moema",
+            "slide_title2": "Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil."
+          }
+        }
+      },
+      "block_order": [
+        "image_Xxj9Yx"
+      ],
+      "name": "t:sections.fading-images.presets.fading_image_hero.name",
+      "settings": {
+        "title_lines": "2",
+        "title_font": "body",
+        "title_size": 44,
+        "title_color": "#ffffff",
+        "title_bg_color": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "link": "",
+        "slide_speed": 5,
+        "color_overlay": "#000",
+        "color_overlay_opacity": 30,
+        "desktop_height": "650px",
+        "mobile_height": "auto",
+        "lazyload_images": true
+      }
+    },
+    "slideshow_LmF83j": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MrnAfW": {
+          "type": "image",
+          "settings": {
+            "title": "Visite nossa loja em Moema",
+            "title_size": 44,
+            "subheading": "Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T140507.189_upscayl_3x_upscayl-standard-4x.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 26
+          }
+        }
+      },
+      "block_order": [
+        "image_MrnAfW"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "100vh",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fading_images_ARCPXr",
+    "slideshow_LmF83j"
   ]
 }
