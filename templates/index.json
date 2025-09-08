@@ -13,9 +13,9 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "Uniformes que unem design e resistência",
-        "title_size": 58,
-        "subheading": "Jalecos, pijamas e fardamentos premium, prontos para a sua rotina.",
+        "title": "Jalecos que unem estilo e confiança",
+        "title_size": 44,
+        "subheading": "Design autoral, conforto de alta performance e pronta entrega para profissionais da saúde e estética",
         "link_text": "Comprar Jalecos",
         "link": "shopify://collections/all",
         "text_align": "vertical-center horizontal-center",
