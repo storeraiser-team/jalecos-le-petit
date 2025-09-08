@@ -94,6 +94,34 @@
         "lazyload_images": true
       }
     },
+    "rich_text_7WDKBF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_R8Hj8c": {
+          "type": "heading",
+          "settings": {
+            "title": "Bem-vindo à Le Petit Jalecos"
+          }
+        },
+        "text_gQ9tVX": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Criamos com propósito, desde a seleção dos melhores fornecedores até o cuidado de cada etapa da entrega. Nossa equipe se dedica para que seu pedido chegue em perfeito estado e proporcione uma experiência de compra excepcional.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R8Hj8c",
+        "text_gQ9tVX"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "text_and_image_icXQCp": {
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
@@ -330,6 +358,7 @@
   "order": [
     "main",
     "slideshow",
+    "rich_text_7WDKBF",
     "text_and_image_icXQCp",
     "text_with_icons_iJLmWg",
     "text_columns_xbpkXi",
