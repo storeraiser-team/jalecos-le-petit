@@ -45,6 +45,7 @@
     "type_base_accent_transform": false,
     "type_navigation_style": true,
     "icon_weight": "4px",
+    "icon_linecaps": "round",
     "vendor_enable": false,
     "quick_shop_enable": true,
     "quick_shop_text": "Visualização rápida",
