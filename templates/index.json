@@ -170,14 +170,37 @@
         "divider": false
       }
     },
+    "text_and_image_WgJwaK": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/Image_fx_-_2025-09-08T104256.062.png",
+        "image_mask": "landscape",
+        "image2": "shopify://shop_images/Image_fx_-_2025-09-08T105644.541.png",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "Mais que uniformes, uma marca feita para você",
+        "text": "<p>Desde 2015, criamos peças que combinam qualidade, conforto e propósito. Atendimento humano, design diferenciado e pronta-entrega de verdade.</p>",
+        "button_label": "Conheça nossa história",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": true,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
     "collection_callout_Qtehre": {
       "type": "collection-callout",
       "name": "t:sections.collection-callout.presets.collection_callout.name",
       "settings": {
         "collection": "",
         "subtitle": "Brand new",
-        "title": "Destaques da Semana",
-        "text": "Nossos produtos mais procurados, prontos para envio.",
+        "title": "Mais que jalecos, uma marca feita para você",
+        "text": "Desde 2015, a Le Petit Jalecos cria peças que unem sofisticação e funcionalidade. Nossa missão é transformar o uniforme em uma extensão do seu estilo, com qualidade e pronta entrega que fazem a diferença.",
         "cta_text1": "Ver todos os lançamentos",
         "cta_link1": "shopify://collections/promocoes",
         "cta_text2": "",
@@ -255,27 +278,6 @@
         "thumbnail_arrows": false,
         "enable_video_looping": true,
         "product_video_style": "muted"
-      }
-    },
-    "text_and_image_WgJwaK": {
-      "type": "text-and-image",
-      "name": "t:sections.text-and-image.presets.image_with_text.name",
-      "settings": {
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Mais que uniformes, uma marca feita para você",
-        "text": "<p>Desde 2015, criamos peças que combinam qualidade, conforto e propósito. Atendimento humano, design diferenciado e pronta-entrega de verdade.</p>",
-        "button_label": "Conheça nossa história",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": true,
-        "top_padding": false,
-        "bottom_padding": false,
-        "lazyload_images": true
       }
     },
     "testimonials_9yPXaH": {
@@ -426,10 +428,10 @@
     "featured_collection_switcher_fe9FJa",
     "featured_collections_Nxya8e",
     "featured_collection_MgQHkP",
+    "text_and_image_WgJwaK",
     "collection_callout_Qtehre",
     "hero_video_ihJzji",
     "featured_product_pJ3YeP",
-    "text_and_image_WgJwaK",
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
     "background_image_text_iHB3Cz",
