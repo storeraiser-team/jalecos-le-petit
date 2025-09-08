@@ -95,54 +95,54 @@
         "product_video_style": "muted"
       }
     },
-    "text_with_icons_CqHAde": {
+    "text_with_icons_GnANgc": {
       "type": "text-with-icons",
       "blocks": {
-        "text_block_wPTEiN": {
+        "text_block_gB7Kj7": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Envio rápido",
+            "icon": "truck",
+            "title": "Envio no mesmo dia",
             "text": ""
           }
         },
-        "text_block_ir3BWc": {
+        "text_block_FWiaNA": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
+            "icon": "ribbon",
             "title": "Tecidos premium",
             "text": ""
           }
         },
-        "text_block_VbqUnc": {
+        "text_block_ciFy4x": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
+            "icon": "charity",
             "title": "Bordado",
             "text": ""
           }
         },
-        "text_block_mwqfVy": {
+        "text_block_WxEYCW": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
+            "icon": "thumbs-up",
             "title": "Atendimento humano",
             "text": ""
           }
         }
       },
       "block_order": [
-        "text_block_wPTEiN",
-        "text_block_ir3BWc",
-        "text_block_VbqUnc",
-        "text_block_mwqfVy"
+        "text_block_gB7Kj7",
+        "text_block_FWiaNA",
+        "text_block_ciFy4x",
+        "text_block_WxEYCW"
       ],
       "name": "t:common.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 4,
-        "icon_color": "#000000",
+        "icon_color": "#1c1d1d",
         "button_label": "",
         "button_link": "",
         "divider": false
@@ -335,7 +335,7 @@
   },
   "order": [
     "main",
-    "text_with_icons_CqHAde",
+    "text_with_icons_GnANgc",
     "text_and_image_kHfyFX",
     "text_and_image_nRHWNp",
     "featured_video_hRAVYm",
