@@ -339,7 +339,9 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image_mask": "none",
+        "image": "shopify://shop_images/531412594_18351447694080181_5786346766315079987_n.jpg",
+        "image_mask": "portrait",
+        "image2": "shopify://shop_images/527471004_18350511427080181_6302639000092887050_n.jpg",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Elas usam Le Petit",
@@ -349,10 +351,10 @@
         "button_style": "secondary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
-        "divider": true,
-        "top_padding": false,
-        "bottom_padding": false,
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
       }
     },
