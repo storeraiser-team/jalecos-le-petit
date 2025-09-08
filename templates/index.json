@@ -78,18 +78,6 @@
         "divider": false
       }
     },
-    "featured_collection_MgQHkP": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "Destaques da Semana",
-        "home_featured_products": "jalecos-femininos",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "featured_collection_switcher_fe9FJa": {
       "type": "featured-collection-switcher",
       "name": "t:sections.featured-collection-switcher.presets.collection_switcher.name",
@@ -98,6 +86,19 @@
         "collection1": "jalecos-femininos",
         "collection2": "jalecos-masculinos",
         "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured_collection_MgQHkP": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Destaques da Semana",
+        "home_featured_products": "jalecos-femininos",
+        "per_row": 4,
+        "rows": 1,
         "view_all": true,
         "divider": false
       }
@@ -422,11 +423,11 @@
   "order": [
     "hero_video_9MhMia",
     "text_with_icons_RK3bxE",
-    "featured_collection_MgQHkP",
     "featured_collection_switcher_fe9FJa",
+    "featured_collections_Nxya8e",
+    "featured_collection_MgQHkP",
     "collection_callout_Qtehre",
     "hero_video_ihJzji",
-    "featured_collections_Nxya8e",
     "featured_product_pJ3YeP",
     "text_and_image_WgJwaK",
     "testimonials_9yPXaH",

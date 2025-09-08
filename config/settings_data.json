@@ -48,6 +48,7 @@
     "icon_linecaps": "round",
     "vendor_enable": false,
     "product_grid_image_size": "natural",
+    "product_hover_image": true,
     "quick_shop_enable": true,
     "quick_shop_text": "Visualização rápida",
     "enable_swatches": true,
