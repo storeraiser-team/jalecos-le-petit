@@ -247,6 +247,50 @@
         "divider": false
       }
     },
+    "text_with_icons_bLyWrQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_Ywcph3": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Missão",
+            "text": "<p>Transformar o uniforme em uma extensão de estilo e confiança.</p>"
+          }
+        },
+        "text_block_GBBAxY": {
+          "type": "text_block",
+          "settings": {
+            "icon": "recycle",
+            "title": "Visão",
+            "text": "<p>Ser referência em jalecos e pijamas premium no Brasil.</p>"
+          }
+        },
+        "text_block_8yJBf4": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Valores",
+            "text": "<p><br/>Excelência, propósito, cuidado humano e inovação<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Ywcph3",
+        "text_block_GBBAxY",
+        "text_block_8yJBf4"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "logo_list_7iiqbJ": {
       "type": "logo-list",
       "blocks": {
@@ -277,7 +321,7 @@
       "custom_css": [],
       "name": "t:sections.logo-list.presets.logo_list.name",
       "settings": {
-        "title": "",
+        "title": "dasda",
         "logo_opacity": 100,
         "divider": false
       }
@@ -365,6 +409,7 @@
     "text_and_image_icXQCp",
     "text_with_icons_iJLmWg",
     "text_columns_xbpkXi",
+    "text_with_icons_bLyWrQ",
     "logo_list_7iiqbJ",
     "background_image_text_Qmb8qi",
     "featured-collection",
