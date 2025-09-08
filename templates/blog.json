@@ -24,15 +24,15 @@
       "type": "blog-posts",
       "name": "t:sections.blog-posts.presets.blog_posts.name",
       "settings": {
-        "title": "Blog posts",
+        "title": "Mais posts",
         "blog": "news",
-        "post_limit": 3,
+        "post_limit": 6,
         "blog_show_tags": true,
         "blog_show_date": true,
         "blog_show_comments": true,
         "blog_show_author": true,
         "view_all": true,
-        "divider": false
+        "divider": true
       }
     }
   },
