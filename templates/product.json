@@ -207,22 +207,13 @@
         "video_url": "https://www.youtube.com/watch?v=aeItLHk12p4&ab_channel=JalecosLePetit",
         "overlay_opacity": 0,
         "section_height": "650px",
-        "mobile_height": "500px"
+        "mobile_height": "100vh"
       }
     },
-    "featured_video_hRAVYm": {
-      "type": "featured-video",
-      "name": "t:sections.featured-video.presets.video.name",
-      "settings": {
-        "title": "",
-        "video_url": "https://www.youtube.com/watch?v=aeItLHk12p4&ab_channel=JalecosLePetit",
-        "divider": false
-      }
-    },
-    "testimonials_cinGHX": {
+    "testimonials_d4q8Pj": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_RV6Jx9": {
+        "testimonial_abqHGB": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
@@ -231,7 +222,7 @@
             "author_info": "São Paulo – SP"
           }
         },
-        "testimonial_YeyP7V": {
+        "testimonial_B43QTx": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
@@ -240,7 +231,7 @@
             "author_info": "Fortaleza – CE"
           }
         },
-        "testimonial_HDzpw7": {
+        "testimonial_7iy4X8": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
@@ -249,7 +240,7 @@
             "author_info": "Belo Horizonte – MG"
           }
         },
-        "testimonial_hfyRK3": {
+        "testimonial_eGxaX4": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
@@ -260,16 +251,16 @@
         }
       },
       "block_order": [
-        "testimonial_RV6Jx9",
-        "testimonial_YeyP7V",
-        "testimonial_HDzpw7",
-        "testimonial_hfyRK3"
+        "testimonial_abqHGB",
+        "testimonial_B43QTx",
+        "testimonial_7iy4X8",
+        "testimonial_eGxaX4"
       ],
       "name": "t:sections.testimonials.presets.customer_testimonials.name",
       "settings": {
         "title": "O que dizem de nós",
         "round_images": true,
-        "color_background": "#f9f9f9",
+        "color_background": "#f2f2f2",
         "color_text": "#1c1d1d"
       }
     },
@@ -359,8 +350,7 @@
     "text_and_image_kHfyFX",
     "text_and_image_nRHWNp",
     "hero_video_4NEdhC",
-    "featured_video_hRAVYm",
-    "testimonials_cinGHX",
+    "testimonials_d4q8Pj",
     "faq_8we9Qx",
     "background_image_text_9YVGjC",
     "sub",
