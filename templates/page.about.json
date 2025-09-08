@@ -124,6 +124,7 @@
     },
     "text_and_image_icXQCp": {
       "type": "text-and-image",
+      "disabled": true,
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
         "image_mask": "none",
