@@ -1,1 +1,59 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Get in touch"}},"text":{"type":"text","settings":{}}},"block_order":["heading","text"],"settings":{}},"form":{"type":"contact-form","settings":{}}},"order":["main","rich-text","form"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Fale Conosco"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Nosso time está pronto para ajudar você.   Entre em contato para tirar dúvidas sobre produtos, pedidos, personalizações ou qualquer outra necessidade.   Estamos aqui para oferecer um atendimento humano, próximo e atencioso.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "form"
+  ]
+}
