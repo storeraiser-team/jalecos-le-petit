@@ -146,9 +146,9 @@
       "type": "map",
       "name": "t:sections.map.presets.map.name",
       "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br/>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "map_title": "Nossa Loja em Moema",
+        "address": "<p>Av. Açocê, 492 - Indianópolis<br/>São Paulo - SP, 04075-023<br/><br/>Segunda a Sexta, 9h às 18h<br/>Sábado, 9h às 13h<br/>Fechado aos domingos<br/><br/>📞 (11) 93445-2340</p>",
+        "map_address": "Av. Açocê, 492 - Indianópolis, São Paulo - SP, 04075-023",
         "api_key": "",
         "show_button": true,
         "lazyload_images": true
