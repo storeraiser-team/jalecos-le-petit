@@ -104,7 +104,7 @@
         "collection_fMPBJf": {
           "type": "collection",
           "settings": {
-            "collection": "azul-serenity",
+            "collection": "preto-elegance",
             "focal_point": "center center",
             "size": "square-small"
           }
@@ -120,7 +120,7 @@
         "collection_W8yYjf": {
           "type": "collection",
           "settings": {
-            "collection": "verde-sage",
+            "collection": "azul-serenity",
             "focal_point": "center center",
             "size": "square-small"
           }
@@ -128,7 +128,7 @@
         "collection_iQP4kz": {
           "type": "collection",
           "settings": {
-            "collection": "preto-elegance",
+            "collection": "tecido-premium-comfort",
             "focal_point": "center center",
             "size": "square-small"
           }
@@ -136,7 +136,7 @@
         "collection_AVGWGw": {
           "type": "collection",
           "settings": {
-            "collection": "tecido-premium-comfort",
+            "collection": "algodao-soft-touch",
             "focal_point": "center center",
             "size": "wide"
           }
