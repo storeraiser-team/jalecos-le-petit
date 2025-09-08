@@ -19,8 +19,8 @@
         "link_text": "Comprar Jalecos",
         "link": "shopify://collections/all",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "overlay_opacity": 0,
+        "video_url": "https://www.youtube.com/watch?v=MntdN-jlUWs&ab_channel=JalecosLePetit",
+        "overlay_opacity": 40,
         "section_height": "100vh",
         "mobile_height": "100vh"
       }
