@@ -187,9 +187,9 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
-        "divider": true,
-        "top_padding": false,
-        "bottom_padding": false,
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
       }
     },
