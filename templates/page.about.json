@@ -237,6 +237,9 @@
         "text_block_m4J7HU",
         "text_block_bYMhUz"
       ],
+      "custom_css": [
+        "/* Espaçamento de 12px entre os blocos (colunas) */.text-columns-with-images .text-column {margin-bottom: 12px;}"
+      ],
       "name": "t:sections.text-columns.presets.text_columns_with_images.name",
       "settings": {
         "title": "",
@@ -271,6 +274,7 @@
         "logo_image_6X7DGe",
         "logo_image_jLmgR8"
       ],
+      "custom_css": [],
       "name": "t:sections.logo-list.presets.logo_list.name",
       "settings": {
         "title": "",
