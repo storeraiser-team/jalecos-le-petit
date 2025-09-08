@@ -259,12 +259,6 @@
             "link": ""
           }
         },
-        "logo_image_YjG8jw": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
         "logo_image_jLmgR8": {
           "type": "logo_image",
           "settings": {
@@ -275,7 +269,6 @@
       "block_order": [
         "logo_image_6npJA7",
         "logo_image_6X7DGe",
-        "logo_image_YjG8jw",
         "logo_image_jLmgR8"
       ],
       "name": "t:sections.logo-list.presets.logo_list.name",
