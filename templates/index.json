@@ -94,7 +94,7 @@
       "type": "featured-collection-switcher",
       "name": "t:sections.featured-collection-switcher.presets.collection_switcher.name",
       "settings": {
-        "title": "PRINCIPAIS ESCOLHAS",
+        "title": "DESTAQUES DA SEMANA",
         "collection1": "jalecos-femininos",
         "collection2": "jalecos-masculinos",
         "per_row": 4,
