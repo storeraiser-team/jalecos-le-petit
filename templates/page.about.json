@@ -285,44 +285,9 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#1c1d1d",
         "button_label": "",
         "button_link": "",
-        "divider": false
-      }
-    },
-    "logo_list_7iiqbJ": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_image_6npJA7": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_6X7DGe": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_jLmgR8": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_image_6npJA7",
-        "logo_image_6X7DGe",
-        "logo_image_jLmgR8"
-      ],
-      "custom_css": [],
-      "name": "t:sections.logo-list.presets.logo_list.name",
-      "settings": {
-        "title": "dasda",
-        "logo_opacity": 100,
         "divider": false
       }
     },
@@ -410,7 +375,6 @@
     "text_with_icons_iJLmWg",
     "text_columns_xbpkXi",
     "text_with_icons_bLyWrQ",
-    "logo_list_7iiqbJ",
     "background_image_text_Qmb8qi",
     "featured-collection",
     "form",
