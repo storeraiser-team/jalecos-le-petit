@@ -365,7 +365,7 @@
         "title": "Visite nossa loja em Moema",
         "text": "<p>Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.</p>",
         "button_label": "Como chegar",
-        "button_link": "shopify://collections",
+        "button_link": "shopify://pages/loja-moema",
         "image": "shopify://shop_images/5.webp",
         "layout": "left",
         "height": 650,
