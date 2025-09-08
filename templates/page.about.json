@@ -196,6 +196,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T141350.971.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "2015",
@@ -208,6 +209,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T141409.546.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "2020",
@@ -220,6 +222,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Image_fx_-_2025-09-08T141432.563.png",
             "image_mask": "none",
             "image_width": 650,
             "title": "Hoje",
