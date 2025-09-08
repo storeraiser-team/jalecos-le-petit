@@ -101,8 +101,8 @@
           "type": "newsletter",
           "settings": {
             "show_footer_title": true,
-            "title": "Sign up and save",
-            "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "title": "Entre para a nossa lista exclusiva",
+            "richtext": "<p>Receba novidades em primeira mão, benefícios especiais e acesso antecipado às nossas coleções.</p>",
             "container_width": 25
           }
         }
