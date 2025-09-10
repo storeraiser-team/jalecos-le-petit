@@ -10,7 +10,7 @@
 {
   "current": {
     "color_body_bg": "#f2f2f2",
-    "color_body_text": "#1c1d1d",
+    "color_body_text": "#212121",
     "color_borders": "#e8e8e1",
     "color_button": "#780c23",
     "color_sale_price": "#780c23",
@@ -33,9 +33,9 @@
     "color_large_image_bg": "#780c23",
     "type_header_font_family": "open_sans_n7",
     "type_header_spacing": "0",
-    "type_header_base_size": 30,
-    "type_header_line_height": 1.2,
-    "type_header_capitalize": true,
+    "type_header_base_size": 24,
+    "type_header_line_height": 1,
+    "type_header_capitalize": false,
     "type_header_accent_transform": true,
     "type_headers_align_text": true,
     "type_base_font_family": "open_sans_n4",
