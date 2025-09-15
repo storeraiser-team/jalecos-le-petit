@@ -335,7 +335,7 @@
       "type": "product-recommendations",
       "settings": {
         "product_recommendations_heading": "Você também pode gostar",
-        "related_count": 6,
+        "related_count": 4,
         "products_per_row": 3
       }
     },
