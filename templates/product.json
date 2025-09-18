@@ -269,38 +269,15 @@
       "blocks": {
         "question_qafxL4": {
           "type": "question",
+          "repeater": "{{ product.metafields.custom.faq.value }}",
           "settings": {
-            "title": "O jaleco está disponível para pronta entrega?",
-            "text": "<p><strong>Sim.</strong> Todos os nossos jalecos, incluindo o <strong>Branco França</strong>, estão em estoque para envio imediato. Pedidos confirmados até às 15h são postados no mesmo dia.</p>"
-          }
-        },
-        "question_hN7H6h": {
-          "type": "question",
-          "settings": {
-            "title": "Qual é o tecido utilizado neste jaleco?",
-            "text": "<p>O <strong>Jaleco Branco França</strong> é confeccionado com <strong>tecidos premium de alta performance</strong>, que unem conforto, respirabilidade e durabilidade. Conta ainda com <strong>acabamento de nanotecnologia</strong>, que garante toque macio e caimento impecável.</p>"
-          }
-        },
-        "question_hThRTe": {
-          "type": "question",
-          "settings": {
-            "title": "Posso personalizar com meu nome e profissão?",
-            "text": "<p><strong>Sim.</strong> Oferecemos a opção de <strong>bordado personalizado</strong> diretamente no jaleco, com prazo de produção de até 24h adicionais. Essa personalização dá um toque exclusivo e profissional à sua peça.</p>"
-          }
-        },
-        "question_XUcVaj": {
-          "type": "question",
-          "settings": {
-            "title": "Como escolher o tamanho ideal?",
-            "text": "<p>Na página do produto você encontra nosso <strong>Guia de Medidas</strong>, desenvolvido especialmente para facilitar a escolha. Basta comparar suas medidas com a tabela para garantir o caimento perfeito.</p>"
+            "title": "{{ block.repeater.pergunta.value }}",
+            "text": "{{ block.repeater.resposta | metafield_tag }}"
           }
         }
       },
       "block_order": [
-        "question_qafxL4",
-        "question_hN7H6h",
-        "question_hThRTe",
-        "question_XUcVaj"
+        "question_qafxL4"
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
