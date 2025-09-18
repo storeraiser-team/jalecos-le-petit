@@ -77,7 +77,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "main-menu",
+            "menu": "atendimento",
             "container_width": 15
           }
         },
@@ -85,7 +85,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "footer",
+            "menu": "categorias",
             "container_width": 15
           }
         },
@@ -93,7 +93,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "footer",
+            "menu": "suporte",
             "container_width": 20
           }
         },
