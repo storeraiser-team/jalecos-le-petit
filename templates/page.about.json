@@ -299,7 +299,7 @@
         "title": "Visite nossa loja em Moema",
         "text": "<p>Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.</p>",
         "button_label": "Como chegar",
-        "button_link": "shopify://pages/loja-moema",
+        "button_link": "https://www.google.com/maps/dir//Av.+A%C3%A7oc%C3%AA,+492+-+Indian%C3%B3polis,+S%C3%A3o+Paulo+-+SP,+04075-023/@-23.6038501,-46.7385299,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5a10ad6ab69d:0xae7329a87e347637!2m2!1d-46.6561283!2d-23.6038718?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D",
         "image": "shopify://shop_images/5.webp",
         "layout": "left",
         "height": 650,
