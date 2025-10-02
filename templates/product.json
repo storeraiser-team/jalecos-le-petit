@@ -66,10 +66,10 @@
         },
         "tab": {
           "type": "tab",
+          "repeater": "{{ product.metafields.custom.acordeao.value }}",
           "settings": {
-            "title": "Size guide",
-            "content": "",
-            "page": ""
+            "title": "{{ block.repeater.titulo.value }}",
+            "content": "<p>{{ block.repeater.identificador.value }}</p>"
           }
         }
       },
