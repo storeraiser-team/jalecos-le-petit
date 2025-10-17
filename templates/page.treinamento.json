@@ -1,0 +1,166 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_LmF83j": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MrnAfW": {
+          "type": "image",
+          "settings": {
+            "title": "Visite nossa loja em Moema",
+            "title_size": 44,
+            "subheading": "Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/4.webp",
+            "parallax_direction": "top",
+            "overlay_opacity": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_MrnAfW"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "100vh",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_with_icons_ePkYXH": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_B7RcNA": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Envio no mesmo dia",
+            "text": ""
+          }
+        },
+        "text_block_494WcE": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Tecidos premium",
+            "text": ""
+          }
+        },
+        "text_block_XPmf98": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Bordado",
+            "text": ""
+          }
+        },
+        "text_block_tiRztd": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Atendimento humano",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_B7RcNA",
+        "text_block_494WcE",
+        "text_block_XPmf98",
+        "text_block_tiRztd"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "advanced_content_J6HmpV": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_mgKMwE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.webp",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_hWNG8f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.webp",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_pVMNTN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.webp",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_mgKMwE",
+        "image_hWNG8f",
+        "image_pVMNTN"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "map_98Ki7R": {
+      "type": "map",
+      "name": "t:sections.map.presets.map.name",
+      "settings": {
+        "map_title": "Nossa Loja em Moema",
+        "address": "<p>Av. Açocê, 492 - Indianópolis<br/>São Paulo - SP, 04075-023<br/><br/>Segunda a Sexta, 9h às 18h<br/>Sábado, 9h às 13h<br/>Fechado aos domingos<br/><br/>📞 (11) 93445-2340</p>",
+        "map_address": "Av. Açocê, 492 - Indianópolis, São Paulo - SP, 04075-023",
+        "api_key": "",
+        "show_button": true,
+        "background_image": "shopify://shop_images/5.webp",
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_LmF83j",
+    "text_with_icons_ePkYXH",
+    "advanced_content_J6HmpV",
+    "map_98Ki7R"
+  ]
+}
