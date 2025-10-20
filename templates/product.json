@@ -89,7 +89,7 @@
         "sku_enable": false,
         "image_size": "large",
         "product_zoom_enable": true,
-        "thumbnail_position": "below",
+        "thumbnail_position": "beside",
         "thumbnail_height": "fixed",
         "thumbnail_arrows": false,
         "enable_video_looping": true,
