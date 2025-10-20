@@ -69,7 +69,8 @@
           "repeater": "{{ product.metafields.custom.acordeao.value }}",
           "settings": {
             "title": "{{ block.repeater.titulo.value }}",
-            "content": "<p>{{ block.repeater.identificador.value }}</p>"
+            "content": "{{ block.repeater.texto | metafield_tag }}",
+            "page": ""
           }
         }
       },
