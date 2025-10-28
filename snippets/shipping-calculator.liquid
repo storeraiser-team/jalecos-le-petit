@@ -1,0 +1,269 @@
+<div
+  {{ block.shopify_attributes }}
+  id="simulator-shipping"
+  class="shipping-container"
+  style="margin-top: 1rem; margin-bottom: 1rem;"
+>
+  <div
+    id="shipping-error"
+    class="shipping-error"
+    style="margin-bottom: 0.25rem; display: none;"
+  >Erro</div>
+  <span class="shipping-title" style="color: {{ block.settings.title_color }}"> Frete </span>
+  <div class="shipping-row">
+    <input
+      id="cep"
+      name="cep"
+      type="text"
+      maxlength="9"
+      placeholder="Informe o seu CEP"
+      class="shipping-cep-input"
+    >
+    <button
+      id="shipping-calc-btn"
+      class="shipping-calc-btn"
+      style="--bg-color: {{ block.settings.button_background_color }}; --text-color: {{ block.settings.button_text_color }}; --border-color: {{ block.settings.button_border_color }}; --bg-hover-color: {{ block.settings.button_text_color }}; --text-hover-color: {{ block.settings.button_hover_text_color }}"
+    >
+      <span id="shipping-button-text">Calcular</span>
+    </button>
+  </div>
+  <div
+    id="shipping-result"
+    class="shipping-result"
+    style="margin-top: 0.5rem; margin-bottom: 0.5rem; max-width: 70%; display: none;"
+  >
+    <div class="shipping-result-header" style="margin-bottom: 0.5rem;">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="shipping-icon"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 003 0m-3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+      </svg>
+      <span id="shipping-destination"></span>
+    </div>
+    <div
+      id="shipping-loading"
+      class="shipping-loading"
+      style="display: none;"
+    >
+      <svg
+        class="shipping-spinner"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+    </div>
+    <div id="shipping-loaded" class="shipping-loaded">
+      <hr
+        class="border"
+        style="margin-bottom: 0.5rem; border-size:1px; border-color: {{ color | default: 'currentColor' }};"
+      >
+      <div id="shipping-rates" class="shipping-rates"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .shipping-container { display: flex; flex-direction: column; gap: 0.5rem; }
+  .shipping-error { width: 100%; border-radius: 0.25rem; background-color: #f87171; color: #fff; padding: 0.5rem 1rem; }
+  .shipping-row { display: flex; width: 100%; gap: 0.5rem; flex-direction: row; }
+  .shipping-cep-input {
+    width: 100%; border: 1px solid #a3a3a3; border-radius: 4px;
+    padding: 0.5rem 0.75rem; opacity: 1; transition: opacity .15s ease-in-out;
+    font-size: 0.875rem; font-weight: 400; color: #111827;
+  }
+  .shipping-cep-input::placeholder { color: #525252; font-weight: 400; font-size: 0.875rem; }
+  .shipping-cep-input:hover { opacity: 0.75; }
+  .shipping-title { display: block; width: 100%; font-weight: 400; font-size: 1rem; }
+  .shipping-calc-btn {
+    max-width: max-content; width: auto; padding: 0.75rem; border-radius: 4px; border: 1px solid var(--border-color);
+    background: var(--bg-color); color: var(--text-color); font-size: 0.875rem; font-weight: 400; cursor: pointer;
+    transition: background-color .15s ease, color .15s ease, opacity .15s ease;
+  }
+  .shipping-calc-btn:hover { background: var(--bg-hover-color); color: var(--text-hover-color); }
+  .shipping-calc-btn:disabled { opacity: .6; cursor: not-allowed; }
+  .shipping-result { display: flex; width: 100%; flex-direction: column; }
+  .shipping-result-header { display: flex; flex-direction: row; align-items: center; gap: 1rem; }
+  .shipping-icon { height: 4.5rem; width: 4.5rem; }
+  .shipping-loading { display: flex; width: 100%; align-items: center; justify-content: center; text-align: center; }
+  .shipping-spinner { margin-left: -0.25rem; height: 1.25rem; width: 1.25rem; animation: spin 1s linear infinite; color: currentColor; }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .shipping-loaded { }
+  .shipping-rates { display: block; width: 100%; }
+  .shipping-rate-row { margin-bottom: 1.5rem; display: flex; width: 100%; flex-direction: row; justify-content: space-between; }
+  .shipping-rate-left { display: flex; flex-direction: column; }
+  .shipping-rate-name { font-size: 1rem; font-weight: 700; }
+  .shipping-rate-days { font-size: 1rem; }
+  .shipping-rate-price { font-size: 1rem; font-weight: 700; }
+  .opacity-25 { opacity: .25; }
+  .opacity-75 { opacity: .75; }
+  .border { border-width: 1px; border-style: solid; }
+</style>
+
+<script>
+(function() {
+  var root = document.getElementById('simulator-shipping');
+  if (!root) return;
+  var state = {
+    shippingEnterprises: [],
+    uf: '',
+    stateName: '',
+    city: '',
+    error: '',
+    loading: false,
+    buttonText: 'Calcular',
+    error_message: { invalid_zip_code: 'CEP inválido' }
+  };
+  var el = {
+    cep: document.getElementById('cep'),
+    btn: document.getElementById('shipping-calc-btn'),
+    btnText: document.getElementById('shipping-button-text'),
+    error: document.getElementById('shipping-error'),
+    result: document.getElementById('shipping-result'),
+    destination: document.getElementById('shipping-destination'),
+    loading: document.getElementById('shipping-loading'),
+    rates: document.getElementById('shipping-rates')
+  };
+  function setLoading(v){ state.loading = v; updateUI(); }
+  function setError(msg){ state.error = msg || ''; updateUI(); }
+  function updateUI(){
+    if (el.btn) el.btn.disabled = state.loading;
+    if (el.btnText) el.btnText.textContent = state.buttonText;
+    if (el.error) el.error.style.display = state.error ? '' : 'none';
+    if (el.loading) el.loading.style.display = state.loading ? '' : 'none';
+    var showResult = !!(state.city && !state.error);
+    if (el.result) el.result.style.display = showResult ? '' : 'none';
+    if (el.destination) el.destination.textContent = state.city && state.stateName ? ('Opções de entrega para ' + state.city + ' - ' + state.stateName) : '';
+    renderRates();
+  }
+  function maskCEP(){
+    if (!el.cep) return;
+    var v = el.cep.value || '';
+    v = v.replace(/\D/g, '');
+    v = v.replace(/^(\d{5})(\d)/, '$1-$2');
+    el.cep.value = v;
+  }
+  function getCookie(){
+    var name = 'cart=';
+    var decodedCookie = decodeURIComponent(document.cookie || '');
+    var ca = decodedCookie.split(';');
+    for (var i=0;i<ca.length;i++){
+      var c = ca[i];
+      while (c.charAt(0) === ' ') c = c.substring(1);
+      if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+    }
+    return '';
+  }
+  function updateCookie(value){
+    var d = new Date();
+    d.setTime(d.getTime() + 14 * 86400000);
+    var expires = ' expires=' + d.toUTCString();
+    var cookie = 'cart=' + value + ';' + expires + '; path=/';
+    document.cookie = cookie;
+    return cookie;
+  }
+  function getCartContent(){
+    return fetch('/cart.js')
+      .then(function(r){ return r.json(); })
+      .then(function(data){ return data.items; })
+      .catch(function(err){ setError(String(err)); return []; });
+  }
+  function updateCartContent(items){
+    return fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: items || [] })
+    }).then(function(r){ return r.json(); }).catch(function(err){ setError(String(err)); });
+  }
+  function addToCart(){
+    var formData = { items: [{ id: {{ product.selected_or_first_available_variant.id }}, quantity: 1 }] };
+    return fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    }).then(function(r){ return r.json(); }).catch(function(err){ setError(String(err)); });
+  }
+  function removeFromCart(){
+    return fetch('/cart/clear.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    }).then(function(r){ return r.json(); }).catch(function(err){ setError(String(err)); });
+  }
+  function getCepData(cep){
+    return fetch('https://viacep.com.br/ws/' + cep + '/json/').then(function(r){ return r.json(); });
+  }
+  function cartGetRates(country, province, zip){
+    var qs = new URLSearchParams({
+      'shipping_address[country]': country,
+      'shipping_address[province]': province,
+      'shipping_address[zip]': zip
+    }).toString();
+    return fetch('/cart/shipping_rates.json?' + qs).then(function(r){ return r.json(); });
+  }
+  function renderRates(){
+    if (!el.rates) return;
+    el.rates.innerHTML = '';
+    var data = state.shippingEnterprises && state.shippingEnterprises.shipping_rates ? state.shippingEnterprises.shipping_rates : [];
+    data.forEach(function(enterprise){
+      var row = document.createElement('div');
+      row.className = 'shipping-rate-row';
+      var left = document.createElement('div');
+      left.className = 'shipping-rate-left';
+      var name = document.createElement('span');
+      name.className = 'shipping-rate-name';
+      name.textContent = enterprise.name || '';
+      left.appendChild(name);
+      if (enterprise.delivery_days && enterprise.delivery_days.length){
+        var dd = document.createElement('span');
+        dd.className = 'shipping-rate-days';
+        var max = enterprise.delivery_days[1] + 1;
+        dd.textContent = '1 a ' + max + ' dias úteis';
+        left.appendChild(dd);
+      }
+      var price = document.createElement('span');
+      price.className = 'shipping-rate-price';
+      var p = (enterprise.price || '').toString().replace('.', ',');
+      price.textContent = 'R$ ' + p;
+      row.appendChild(left);
+      row.appendChild(price);
+      el.rates.appendChild(row);
+    });
+  }
+  function shippingCalculate(rawCep){
+    setError('');
+    state.buttonText = 'Calculando...';
+    setLoading(true);
+    var cep = (rawCep || '').replace(/-/g, '');
+    var states = { AC:'Acre', AL:'Alagoas', AP:'Amapá', AM:'Amazonas', BA:'Bahia', CE:'Ceará', DF:'Distrito Federal', ES:'Espírito Santo', GO:'Goiás', MA:'Maranhão', MT:'Mato Grosso', MS:'Mato Grosso do Sul', MG:'Minas Gerais', PA:'Pará', PB:'Paraíba', PR:'Paraná', PE:'Pernambuco', PI:'Piauí', RJ:'Rio de Janeiro', RN:'Rio Grande do Norte', RS:'Rio Grande do Sul', RO:'Rondônia', RR:'Roraima', SC:'Santa Catarina', SP:'São Paulo', SE:'Sergipe', TO:'Tocantins' };
+    if (cep.length !== 8){
+      setError(state.error_message.invalid_zip_code);
+      state.buttonText = 'Calcular';
+      setLoading(false);
+      return;
+    }
+    var productId = '{{ product.selected_or_first_available_variant.id }}';
+    var prevCartItems = [];
+    var prevCookie = '';
+    getCartContent()
+      .then(function(items){ prevCartItems = items || []; prevCookie = getCookie(); return removeFromCart(); })
+      .then(function(){ updateCookie('fake_card_' + productId); return addToCart(); })
+      .then(function(){ return getCepData(cep); })
+      .then(function(data){ state.uf = data.uf; state.stateName = states[data.uf]; state.city = data.localidade; return cartGetRates('Brazil', states[data.uf], data.cep); })
+      .then(function(rates){ state.shippingEnterprises = rates; return removeFromCart(); })
+      .then(function(){ updateCookie(prevCookie); return updateCartContent(prevCartItems); })
+      .then(function(){ state.buttonText = 'Calcular'; setLoading(false); })
+      .catch(function(err){ console.error('Error:', err); setError('Erro ao calcular o frete. Tente novamente.'); state.buttonText = 'Calcular'; setLoading(false); });
+  }
+  if (el.cep){ el.cep.addEventListener('input', maskCEP); }
+  if (el.btn){ el.btn.addEventListener('click', function(){ shippingCalculate(el.cep ? el.cep.value : ''); }); }
+  if (window.location.search.indexOf('addToCart') !== -1){ addToCart(); }
+  updateUI();
+})();
+</script>

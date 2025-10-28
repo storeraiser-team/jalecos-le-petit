@@ -328,6 +328,11 @@
                           ></div>
                       {%- endif -%}
                     </div>
+
+                  {%- when 'shipping-calculator' -%}
+                    <div class="product-block" {{ block.shopify_attributes }}>
+                      {%- render 'shipping-calculator', product: product, block: block -%}
+                    </div>
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
