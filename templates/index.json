@@ -11,6 +11,7 @@
   "sections": {
     "hero_video_9MhMia": {
       "type": "hero-video",
+      "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
         "title": "Jalecos que unem estilo e confiança",
@@ -46,7 +47,6 @@
       "block_order": [
         "image_XdPRFx"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
         "section_height": "natural",
