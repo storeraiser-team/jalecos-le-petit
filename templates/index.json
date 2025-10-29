@@ -25,6 +25,38 @@
         "mobile_height": "100vh"
       }
     },
+    "slideshow_L3p7R6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XdPRFx": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Banner_Le_Petit.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_XdPRFx"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
     "text_with_icons_RK3bxE": {
       "type": "text-with-icons",
       "blocks": {
@@ -427,6 +459,7 @@
   },
   "order": [
     "hero_video_9MhMia",
+    "slideshow_L3p7R6",
     "text_with_icons_RK3bxE",
     "featured_collection_switcher_fe9FJa",
     "featured_collections_Nxya8e",
