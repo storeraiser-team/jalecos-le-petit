@@ -46,6 +46,7 @@
       "block_order": [
         "image_XdPRFx"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
         "section_height": "natural",
