@@ -55,6 +55,20 @@
             if (newGrid && currentGrid) {
               currentGrid.outerHTML = newGrid.outerHTML;
               
+              var updatedGrid = isModal.querySelector('.product-section .grid');
+              var imageColumn = updatedGrid.querySelector('.product-single__sticky');
+              var descColumn = updatedGrid.querySelector('.grid__item:not(.product-single__sticky)');
+              
+              if (imageColumn) {
+                imageColumn.classList.remove('medium-up--three-fifths', 'medium-up--two-fifths');
+                imageColumn.classList.add('medium-up--one-half');
+              }
+              
+              if (descColumn) {
+                descColumn.classList.remove('medium-up--three-fifths', 'medium-up--two-fifths');
+                descColumn.classList.add('medium-up--one-half');
+              }
+              
               var currentProductSection = isModal.querySelector('.product-section');
               self.reinitTheme(currentProductSection);
             }
