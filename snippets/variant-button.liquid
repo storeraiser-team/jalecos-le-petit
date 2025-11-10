@@ -18,32 +18,44 @@
 -%}
 
 <div class="variant-wrapper js" data-type="button">
-  <label class="variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
-    for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
-    {{ option.name }}
-    {%- if connect_to_sizechart and is_size -%}
-      <span class="variant__label-info">
-        &mdash;
-        {%- render
-          'tool-tip-trigger',
-          title: size_chart_title,
-          content: section.blocks[sizechart_index].settings.size_chart.content,
-          context: 'size-chart'
-        -%}
-      </span>
-    {%- endif -%}
-    {%- if is_color -%}
-      <span class="variant__label-info">
-        &mdash;
-        <span
-          data-variant-color-label
-          data-index="{{ forloop.index0 }}"
-          data-option-index="{{ color_option_index }}">
-          {{ option.selected_value }}
+  <div class="variant__label-wrapper">
+    <label class="variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
+      for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
+      {{ option.name }}
+      {%- if connect_to_sizechart and is_size -%}
+        <span class="variant__label-info">
+          &mdash;
+          {%- render
+            'tool-tip-trigger',
+            title: size_chart_title,
+            content: section.blocks[sizechart_index].settings.size_chart.content,
+            context: 'size-chart'
+          -%}
         </span>
-      </span>
+      {%- endif -%}
+      {%- if is_color -%}
+        <span class="variant__label-info">
+          &mdash;
+          <span
+            data-variant-color-label
+            data-index="{{ forloop.index0 }}"
+            data-option-index="{{ color_option_index }}">
+            {{ option.selected_value }}
+          </span>
+        </span>
+      {%- endif -%}
+    </label>
+    {%- if enable_size_chart and size_chart_image and is_size -%}
+      <button type="button" class="size-chart-trigger" data-size-chart-trigger>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-size-chart" viewBox="0 0 64 64">
+          <path d="M22.39 33.53c-7.46 0-13.5-3.9-13.5-8.72s6-8.72 13.5-8.72 13.5 3.9 13.5 8.72a12 12 0 0 1-.22 1.73"/>
+          <ellipse cx="22.39" cy="24.81" rx="3.28" ry="2.12"/>
+          <path d="M8.89 24.81V38.5c0 7.9 6.4 9.41 14.3 9.41h31.92V33.53H22.39m24.39 0v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44m-8.13-7.44v7.44"/>
+        </svg>
+        <span>{{ 'products.general.size_chart_button' | t }}</span>
+      </button>
     {%- endif -%}
-  </label>
+  </div>
 
   <fieldset class="variant-input-wrap"
     name="{{ option.name }}"
@@ -109,3 +121,7 @@
     {%- endfor -%}
   </fieldset>
 </div>
+
+{%- if enable_size_chart and size_chart_image and is_size -%}
+  {%- render 'size-chart-modal', size_chart_image: size_chart_image, section_id: section_id -%}
+{%- endif -%}

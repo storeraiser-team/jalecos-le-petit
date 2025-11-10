@@ -36,7 +36,7 @@
       assign sizechart_index = forloop.index0
       assign next_block_index = sizechart_index | plus: 1
       assign variant_block = section.blocks[next_block_index]
-
+  
       if variant_block.type == 'variant_picker' and variant_block.settings.picker_type == 'button' and product.has_only_default_variant == false
         for option in product.options_with_values
           assign size_trigger = 'products.general.size_trigger' | t | downcase
@@ -290,7 +290,9 @@
                               is_color: is_color,
                               color_option_index: color_option_index,
                               connect_to_sizechart: connect_to_sizechart,
-                              sizechart_index: sizechart_index
+                              sizechart_index: sizechart_index,
+                              enable_size_chart: block.settings.enable_size_chart,
+                              size_chart_image: block.settings.size_chart_image
                             -%}
                           {% else %}
                             {%- render 'variant-dropdown',
