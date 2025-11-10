@@ -17,10 +17,7 @@
             <div class="size-chart-modal__image-wrapper">
               <img 
                 src="{{ size_chart_image | image_url: width: 1200 }}"
-                srcset="{{ size_chart_image | image_url: width: 600 }} 600w,
-                        {{ size_chart_image | image_url: width: 900 }} 900w,
-                        {{ size_chart_image | image_url: width: 1200 }} 1200w"
-                sizes="(min-width: 750px) 700px, calc(100vw - 40px)"
+                srcset="{{ size_chart_image | image_url: width: 1200 }} 1200w"
                 alt="{{ 'products.general.size_chart_modal_title' | t }}"
                 loading="lazy"
                 width="{{ size_chart_image.width }}"
@@ -189,7 +186,6 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 20px;
 }
 
 .size-chart-modal .modal__centered {
@@ -204,7 +200,6 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 16px;
-  padding: 40px;
   position: relative;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.18);
