@@ -32,7 +32,9 @@
             "variant_labels": true,
             "picker_type": "button",
             "product_dynamic_variants_enable": true,
-            "color_swatches": true
+            "color_swatches": true,
+            "enable_size_chart": true,
+            "size_chart_image": "{{ product.metafields.custom.tabela_de_medidas.value }}"
           }
         },
         "buy_buttons": {
