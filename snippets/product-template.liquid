@@ -280,7 +280,6 @@
 
                           {% if block.settings.picker_type == 'button' %}
                             {%- render 'variant-button',
-                              block: block,
                               product: product,
                               form_id: form_id,
                               section_id: section_id,
@@ -292,7 +291,14 @@
                               connect_to_sizechart: connect_to_sizechart,
                               sizechart_index: sizechart_index,
                               enable_size_chart: block.settings.enable_size_chart,
-                              size_chart_image: block.settings.size_chart_image
+                              size_chart_image: block.settings.size_chart_image,
+                              size_chart_button_background: block.settings.size_chart_button_background,
+                              size_chart_button_bg_color: block.settings.size_chart_button_bg_color,
+                              size_chart_button_bg_hover_color: block.settings.size_chart_button_bg_hover_color,
+                              size_chart_button_text_color: block.settings.size_chart_button_text_color,
+                              size_chart_button_border_color: block.settings.size_chart_button_border_color,
+                              size_chart_button_border_radius: block.settings.size_chart_button_border_radius,
+                              size_chart_button_padding_vertical: block.settings.size_chart_button_padding_vertical
                             -%}
                           {% else %}
                             {%- render 'variant-dropdown',

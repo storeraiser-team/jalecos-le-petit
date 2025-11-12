@@ -115,16 +115,40 @@
   margin-left: auto;
   font-family: var(--typeBasePrimary), var(--typeBaseFallback);
   font-size: calc(var(--typeBaseSize) * 0.85);
-  color: var(--colorTextBody);
+  font-weight: 600;
+  color: var(--size-chart-text, var(--colorTextBody));
   text-transform: none;
   letter-spacing: 0;
-  transition: opacity 0.2s ease;
+  transition: all 0.2s ease;
   white-space: nowrap;
   text-decoration: underline;
 }
 
 .size-chart-trigger:hover {
   opacity: 0.7;
+}
+
+/* Size Chart Trigger with Background */
+.size-chart-trigger--with-bg {
+  background: var(--size-chart-bg, #f5f5f5);
+  border: 1px solid var(--size-chart-border, rgba(0, 0, 0, 0.08));
+  border-radius: var(--size-chart-radius, 6px);
+  padding: var(--size-chart-padding-y, 6px) 12px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.size-chart-trigger--with-bg:hover {
+  background: var(--size-chart-bg-hover, #e8e8e8);
+  opacity: 1;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.size-chart-trigger--with-bg:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .size-chart-trigger .icon {
@@ -342,6 +366,11 @@
   .size-chart-trigger {
     font-size: calc(var(--typeBaseSize) * 0.8);
     padding: 4px 0;
+  }
+  
+  .size-chart-trigger--with-bg {
+    padding: var(--size-chart-padding-y, 5px) 10px;
+    font-size: calc(var(--typeBaseSize) * 0.8);
   }
   
   .size-chart-modal .modal__centered-content {
