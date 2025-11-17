@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "accessibility": {
@@ -294,6 +303,8 @@
       "color_swatch_trigger": "Cor",
       "size_trigger": "Tamanho",
       "size_chart": "Gráfico de tamanho",
+      "size_chart_button": "Tabela de Medidas",
+      "size_chart_modal_title": "Tabela de Medidas",
       "save_html": "Economize {{ saved_amount }}",
       "collection_return": "Voltar à {{ collection }}",
       "next_product": "Próximo: {{ title }}",

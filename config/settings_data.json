@@ -79,7 +79,14 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_sidebar_background_image": "",
     "checkout_use_header_image": false,
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "1692329972272007824": {
+        "type": "shopify://apps/zepto-product-personalizer/blocks/product_personalizer_main/7411210d-7b32-4c09-9455-e129e3be4729",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "installed_preset_name": "Motion",
   "presets": {

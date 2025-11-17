@@ -11,6 +11,7 @@
   "sections": {
     "hero_video_9MhMia": {
       "type": "hero-video",
+      "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
         "title": "Jalecos que unem estilo e confiança",
@@ -23,6 +24,39 @@
         "overlay_opacity": 40,
         "section_height": "100vh",
         "mobile_height": "100vh"
+      }
+    },
+    "slideshow_L3p7R6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XdPRFx": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Banner_promocao_de_natal_moderno_vermelho_e_branco.jpg",
+            "image_mobile": "shopify://shop_images/Banner_promocao_de_natal_moderno_vermelho_e_branco-2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_XdPRFx"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": false
       }
     },
     "text_with_icons_RK3bxE": {
@@ -427,6 +461,7 @@
   },
   "order": [
     "hero_video_9MhMia",
+    "slideshow_L3p7R6",
     "text_with_icons_RK3bxE",
     "featured_collection_switcher_fe9FJa",
     "featured_collections_Nxya8e",

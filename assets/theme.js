@@ -1484,8 +1484,10 @@ if (console && console.log) {
               newContentEl.innerHTML;
           } else {
             section.nodeId.forEach(id => {
-              document.getElementById(id).innerHTML =
-                newDom.getElementById(id).innerHTML;
+              if(newDom.getElementById(id)){
+                document.getElementById(id).innerHTML =
+                  newDom.getElementById(id).innerHTML;
+              }
             });
           }
         }

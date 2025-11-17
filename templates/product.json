@@ -32,7 +32,16 @@
             "variant_labels": true,
             "picker_type": "button",
             "product_dynamic_variants_enable": true,
-            "color_swatches": true
+            "color_swatches": true,
+            "enable_size_chart": true,
+            "size_chart_image": "{{ product.metafields.custom.tabela_de_medidas.value }}",
+            "size_chart_button_background": true,
+            "size_chart_button_bg_color": "#780c23",
+            "size_chart_button_bg_hover_color": "#a40b0b",
+            "size_chart_button_text_color": "#fafafa",
+            "size_chart_button_border_color": "#fafafa",
+            "size_chart_button_border_radius": 4,
+            "size_chart_button_padding_vertical": 3
           }
         },
         "buy_buttons": {

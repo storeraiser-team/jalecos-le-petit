@@ -30,7 +30,7 @@
         "hover_menu": true,
         "main_menu_alignment": "left-center",
         "header_sticky": true,
-        "sticky_index": true,
+        "sticky_index": false,
         "sticky_collection": false
       }
     }
