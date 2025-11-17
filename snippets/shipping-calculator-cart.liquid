@@ -1,0 +1,73 @@
+
+  <div id="cart-shipping" class="cart-ship-container">
+    <div class="cart-ship-inner" style="padding-bottom: 1rem;">
+      <div class="cart-ship-header">
+        <span class="cart-ship-title">Cálculo de frete</span>
+      </div>
+      <div class="cart-ship-row">
+        <label for="cep-cart" class="sr-only cart-ship-label"> CEP </label>
+        <div id="cart-ship-error" class="cart-ship-error" style="display:none"></div>
+        <input
+          id="cep-cart"
+          name="cep"
+          type="text"
+          maxlength="9"
+          value=""
+          class="cart-ship-input"
+          placeholder="Insira o CEP"
+        >
+        <button id="cart-ship-btn" class="cart-ship-btn">
+          Calcular
+        </button>
+      </div>
+      <div id="cart-ship-result" class="cart-ship-result" style="display:none">
+        <div id="cart-ship-rates" class="cart-ship-rates"></div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .cart-ship-container { width: 100%; }
+    .cart-ship-inner { display:flex; flex-direction: column; gap: .5rem; }
+    .cart-ship-header { display:flex; width:100%; flex-direction: row; align-items:center; justify-content: space-between; }
+    .cart-ship-title { font-size: 14px; font-weight: 600; text-transform: uppercase; color:currentColor; letter-spacing: .2em; }
+    .cart-ship-row { display:flex; flex:1 1 auto; flex-direction: row; gap: 1rem; align-items: center; }
+    .cart-ship-label { font-size: .875rem; font-weight: 600; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    .cart-ship-error { width: 100%; border-radius: .5rem; background-color: #f87171; color: #fff; padding: .5rem 1rem; }
+    .cart-ship-input { flex-grow:1; width:100%; border:1px solid #a3a3a3; border-radius: .5rem; padding: .5rem .75rem; font-size: .875rem; }
+    .cart-ship-input::placeholder { color:#6b7280; }
+    .cart-ship-btn { max-width: 7rem; width: 100%; padding: .5rem .75rem; border-radius: .5rem; border:1px solid currentColor; background: transparent; color:currentColor; cursor:pointer; }
+    .cart-ship-btn:hover { opacity: .85; }
+    .cart-ship-result { }
+    .cart-ship-rates { display:block; width:100%; }
+    .cart-ship-rate-row { margin-bottom: .75rem; display:flex; width:100%; flex-direction: row; justify-content: space-between; }
+    .cart-ship-rate-left { display:flex; flex-direction: column; }
+    .cart-ship-rate-name { font-weight:700; }
+    .cart-ship-rate-days { font-size: .875rem; }
+    .cart-ship-rate-price { font-size: 1rem; font-weight:700; }
+  </style>
+  <script>
+  (function(){
+    var root = document.getElementById('cart-shipping');
+    if (!root) return;
+    var el = {
+      cep: document.getElementById('cep-cart'),
+      btn: document.getElementById('cart-ship-btn'),
+      error: document.getElementById('cart-ship-error'),
+      result: document.getElementById('cart-ship-result'),
+      rates: document.getElementById('cart-ship-rates')
+    };
+    var state = { shippingEnterprises: [], stateName: '', city: '', error: '' };
+    function maskCEP(){ if(!el.cep) return; var v = el.cep.value||''; v=v.replace(/\D/g,''); v=v.replace(/^(\d{5})(\d)/,'$1-$2'); el.cep.value=v; }
+    function setError(msg){ state.error = msg||''; updateUI(); }
+    function updateUI(){ if(el.error) el.error.style.display = state.error ? '' : 'none'; if(el.error) el.error.textContent = state.error; var show = (!!state.city && !state.error); if(el.result) el.result.style.display = show ? '' : 'none'; renderRates(); }
+    function getCepData(cep){ return fetch('https://viacep.com.br/ws/' + cep + '/json/').then(function(r){ return r.json(); }); }
+    function cartGetRates(country, province, city, zip){ var qs = new URLSearchParams({ 'shipping_address[country]':country, 'shipping_address[province]':province, 'shipping_address[zip]':zip }).toString(); return fetch('/cart/shipping_rates.json?' + qs).then(function(r){ return r.json(); }); }
+    function renderRates(){ if(!el.rates) return; el.rates.innerHTML=''; var data = state.shippingEnterprises && state.shippingEnterprises.shipping_rates ? state.shippingEnterprises.shipping_rates : []; data.forEach(function(ent){ var row=document.createElement('div'); row.className='cart-ship-rate-row'; var left=document.createElement('div'); left.className='cart-ship-rate-left'; var name=document.createElement('span'); name.className='cart-ship-rate-name'; name.textContent = ent.name||''; left.appendChild(name); if(ent.delivery_days && ent.delivery_days.length){ var dd=document.createElement('span'); dd.className='cart-ship-rate-days'; dd.textContent = '(' + ent.delivery_days[1] + ' dias úteis)'; left.appendChild(dd);} var price=document.createElement('span'); price.className='cart-ship-rate-price'; price.textContent = 'R$ ' + (ent.price||'').toString().replace('.', ','); row.appendChild(left); row.appendChild(price); el.rates.appendChild(row); }); }
+    function shippingCalculateCart(rawCep){ try{ window.localStorage && window.localStorage.setItem('cep', rawCep||''); }catch(e){} var cep=(rawCep||'').replace(/-/g,''); setError(''); var states={ AC:'Acre', AL:'Alagoas', AP:'Amapá', AM:'Amazonas', BA:'Bahia', CE:'Ceará', DF:'Distrito Federal', ES:'Espírito Santo', GO:'Goiás', MA:'Maranhão', MT:'Mato Grosso', MS:'Mato Grosso do Sul', MG:'Minas Gerais', PA:'Pará', PB:'Paraíba', PR:'Paraná', PE:'Pernambuco', PI:'Piauí', RJ:'Rio de Janeiro', RN:'Rio Grande do Norte', RS:'Rio Grande do Sul', RO:'Rondônia', RR:'Roraima', SC:'Santa Catarina', SP:'São Paulo', SE:'Sergipe', TO:'Tocantins' }; if(cep.length!==8){ setError('CEP inválido'); return; } getCepData(cep).then(function(d){ state.stateName = states[d.uf]; state.city = d.localidade; return cartGetRates('Brazil', states[d.uf], d.localidade, d.cep); }).then(function(rates){ state.shippingEnterprises = rates; updateUI(); }).catch(function(err){ console.error('Error:', err); setError('Erro ao calcular o frete. Tente novamente.'); }); }
+    if(el.cep){ el.cep.addEventListener('input', maskCEP); try{ el.cep.value = window.localStorage ? (window.localStorage.getItem('cep')||'') : ''; }catch(e){} }
+    if(el.btn){ el.btn.addEventListener('click', function(ev){ ev.preventDefault(); shippingCalculateCart(el.cep?el.cep.value:''); }); }
+    updateUI();
+  })();
+  </script>
+

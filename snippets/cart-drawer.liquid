@@ -46,6 +46,10 @@
             <div data-subtotal>{{ cart.total_price | money }}</div>
           </div>
 
+          <div>
+            {% render 'shipping-calculator-cart' %}
+          </div>
+
           <div class="cart__item-row cart__savings text-center hide" data-savings></div>
 
           <div class="cart__item-row text-center ajaxcart__note">

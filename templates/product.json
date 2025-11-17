@@ -52,6 +52,17 @@
             "show_gift_card_recipient": false
           }
         },
+        "shipping_calculator_FTwPjU": {
+          "type": "shipping-calculator",
+          "settings": {
+            "title_color": "#1c1d1d",
+            "button_background_color": "rgba(0,0,0,0)",
+            "button_text_color": "#1c1d1d",
+            "button_border_color": "#1c1d1d",
+            "button_hover_color": "rgba(0,0,0,0)",
+            "button_hover_text_color": "#ffffff"
+          }
+        },
         "sales_point": {
           "type": "sales_point",
           "settings": {
@@ -89,6 +100,7 @@
         "separator",
         "variant_picker",
         "buy_buttons",
+        "shipping_calculator_FTwPjU",
         "sales_point",
         "sales_point_dxVP4W",
         "sales_point_Kx77HM",
