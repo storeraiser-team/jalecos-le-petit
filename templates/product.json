@@ -33,7 +33,7 @@
             "complementary_count": 2,
             "per_slide": 2,
             "control_type": "dots",
-            "image_style": "circle"
+            "image_style": "default"
           }
         },
         "variant_picker": {
