@@ -29,11 +29,11 @@
         "complementary_products_HYWQ9d": {
           "type": "complementary_products",
           "settings": {
-            "product_complementary_heading": "Pairs well with",
-            "complementary_count": 4,
+            "product_complementary_heading": "Adicione Também:",
+            "complementary_count": 2,
             "per_slide": 2,
             "control_type": "dots",
-            "image_style": "default"
+            "image_style": "circle"
           }
         },
         "variant_picker": {
