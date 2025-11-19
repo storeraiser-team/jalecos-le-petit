@@ -26,6 +26,16 @@
           "type": "separator",
           "settings": {}
         },
+        "complementary_products_HYWQ9d": {
+          "type": "complementary_products",
+          "settings": {
+            "product_complementary_heading": "Pairs well with",
+            "complementary_count": 4,
+            "per_slide": 2,
+            "control_type": "dots",
+            "image_style": "default"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -98,6 +108,7 @@
         "description",
         "price",
         "separator",
+        "complementary_products_HYWQ9d",
         "variant_picker",
         "buy_buttons",
         "shipping_calculator_FTwPjU",
