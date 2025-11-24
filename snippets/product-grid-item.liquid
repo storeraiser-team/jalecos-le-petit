@@ -231,6 +231,31 @@
               {%- endif -%}
             {%- endfor -%}
           {%- endif -%}
+
+          {%- comment -%} Add to cart button for horizontal products {%- endcomment -%}
+          <div class="grid-product__add-to-cart">
+            {% form 'product', product, class: 'grid-product__cart-form complementary-product-form', data-product-form: '', data-product-handle: product.handle, data-enable-history-state: 'false' %}
+              {%- liquid
+                assign current_variant = product.selected_or_first_available_variant
+                assign button_text = 'products.product.add_to_cart' | t
+                unless current_variant.available
+                  assign button_text = 'products.product.sold_out' | t
+                endunless
+              -%}
+              
+              <input type="hidden" name="id" value="{{ current_variant.id }}">
+              <input type="hidden" name="quantity" value="1">
+              
+              <button
+                type="submit"
+                name="add"
+                data-add-to-cart
+                class="btn btn--small grid-product__cart-btn"
+                {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+                <span data-add-to-cart-text>{{ button_text }}</span>
+              </button>
+            {% endform %}
+          </div>
         {%- endif -%}
       </div>
     </a>

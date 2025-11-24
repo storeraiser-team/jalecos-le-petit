@@ -8214,6 +8214,96 @@ if (console && console.log) {
 
     theme.pageTransitions();
 
+    // Initialize AJAX forms for complementary products
+    function initComplementaryProductForms() {
+      var complementaryForms = document.querySelectorAll('product-recommendations[data-intent="complementary"] .complementary-product-form');
+      
+      complementaryForms.forEach(function(form) {
+        if (!form.hasAttribute('data-ajax-initialized')) {
+          form.setAttribute('data-ajax-initialized', 'true');
+          
+          // Only add form submit handler to prevent default submission
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Let the global click handler manage the AJAX call
+          });
+        }
+      });
+    }
+
+    // Initialize on page load
+    initComplementaryProductForms();
+
+    // Listen for recommendations loaded event
+    document.addEventListener('recommendations:loaded', function(event) {
+      if (event.detail && event.detail.intent === 'complementary') {
+        setTimeout(initComplementaryProductForms, 200);
+      }
+    });
+
+    // Global click handler for complementary product add to cart buttons (fallback)
+    document.addEventListener('click', function(e) {
+      // Check if clicked element is an add to cart button in complementary products
+      if (e.target.matches('product-recommendations[data-intent="complementary"] [data-add-to-cart], product-recommendations[data-intent="complementary"] [data-add-to-cart] *')) {
+        var button = e.target.closest('[data-add-to-cart]');
+        var form = e.target.closest('form');
+        
+        if (button && form && !form.hasAttribute('data-ajax-processed')) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          form.setAttribute('data-ajax-processed', 'true');
+          
+          var formData = new FormData(form);
+          
+          // Show loading state
+          button.classList.add('btn--loading');
+          button.disabled = true;
+          
+          fetch('/cart/add.js', {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest'
+            }
+          })
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.json();
+          })
+          .then(data => {
+            // Remove loading state
+            button.classList.remove('btn--loading');
+            button.disabled = false;
+            
+            // Trigger cart drawer to open
+            if (theme.settings.cartType === 'drawer') {
+              var cartDrawerEvent = new CustomEvent('ajaxProduct:added', {
+                detail: { product: data },
+                bubbles: true
+              });
+              document.dispatchEvent(cartDrawerEvent);
+            }
+            
+            // Remove processed flag after a delay
+            setTimeout(function() {
+              form.removeAttribute('data-ajax-processed');
+            }, 1000);
+          })
+          .catch(error => {
+            // Remove loading state
+            button.classList.remove('btn--loading');
+            button.disabled = false;
+            
+            // Remove processed flag
+            form.removeAttribute('data-ajax-processed');
+          });
+        }
+      }
+    });
+
     document.dispatchEvent(new CustomEvent('page:loaded'));
   });
 })();
