@@ -10,9 +10,9 @@
 {
   "current": {
     "color_body_bg": "#f2f2f2",
-    "color_body_text": "#212121",
+    "color_body_text": "#000000",
     "color_borders": "#e8e8e1",
-    "color_button": "#780C23",
+    "color_button": "#780c23",
     "color_button_text": "#FFFFFF",
     "color_sale_price": "#780c23",
     "color_sale_tag": "#780c23",
