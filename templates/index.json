@@ -362,7 +362,7 @@
       ],
       "name": "t:sections.testimonials.presets.customer_testimonials.name",
       "settings": {
-        "title": "O que dizem de nós",
+        "title": "O que dizem sobre nós",
         "round_images": true,
         "color_background": "#f2f2f2",
         "color_text": "#1c1d1d"
