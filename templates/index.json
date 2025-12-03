@@ -139,8 +139,8 @@
           "type": "collection",
           "settings": {
             "collection": "preto-elegance",
-            "focal_point": "center center",
-            "size": "square-small"
+            "focal_point": "80% 50%",
+            "size": "wide"
           }
         },
         "collection_CUhAFJ": {
@@ -148,23 +148,7 @@
           "settings": {
             "collection": "rosa-blush",
             "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "collection_W8yYjf": {
-          "type": "collection",
-          "settings": {
-            "collection": "azul-serenity",
-            "focal_point": "center center",
-            "size": "square-small"
-          }
-        },
-        "collection_iQP4kz": {
-          "type": "collection",
-          "settings": {
-            "collection": "tecido-premium-comfort",
-            "focal_point": "center center",
-            "size": "square-small"
+            "size": "wide"
           }
         },
         "collection_AVGWGw": {
@@ -180,8 +164,6 @@
         "collection_xMGPWr",
         "collection_fMPBJf",
         "collection_CUhAFJ",
-        "collection_W8yYjf",
-        "collection_iQP4kz",
         "collection_AVGWGw"
       ],
       "name": "t:sections.featured-collections.presets.collection_list.name",
