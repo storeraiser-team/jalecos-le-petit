@@ -253,7 +253,7 @@
         "link_text": "Ver todos os produtos",
         "link": "shopify://collections/all",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https://www.youtube.com/watch?v=NwZR6X7rz1I&ab_channel=JalecosLePetit",
+        "video_url": "",
         "overlay_opacity": 24,
         "section_height": "100vh",
         "mobile_height": "400px"
