@@ -33,7 +33,7 @@
         "collection_image_enable": true,
         "collection_image_height": 350,
         "parallax": true,
-        "parallax_direction": "top",
+        "parallax_direction": "left",
         "enable_sidebar": true,
         "collapsed": true,
         "enable_color_swatches": true,
