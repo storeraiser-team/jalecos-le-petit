@@ -41,9 +41,9 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Image_fx_-_2025-09-08T141055.889_upscayl_3x_upscayl-standard-4x.png",
-            "image_mobile": "shopify://shop_images/Image_fx_-_2025-09-08T141055.889_upscayl_3x_upscayl-standard-4x.png",
-            "parallax_direction": "top",
+            "image": "shopify://shop_images/11112025_Novembro-52.jpg",
+            "image_mobile": "shopify://shop_images/11112025_Novembro-31.jpg",
+            "parallax_direction": "left",
             "overlay_opacity": 0
           }
         },
@@ -222,11 +222,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Image_fx_-_2025-09-08T141432.563.png",
+            "image": "shopify://shop_images/IMG_1160.jpg",
             "image_mask": "portrait",
             "image_width": 650,
             "title": "Hoje",
-            "text": "<p>A Le Petit se destaca pela pronta entrega, design autoral e atendimento próximo. Somos referência em jalecos e fardamentos premium.</p>",
+            "text": "<p>A Le Petit se destaca pela pronta entrega, design autoral e atendimento próximo. Somos referência em jalecos e uniformes premium.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -300,7 +300,7 @@
         "text": "<p>Além do online, você encontra nossas peças presencialmente em São Paulo. Estoque pronto para envio a todo Brasil.</p>",
         "button_label": "Como chegar",
         "button_link": "https://www.google.com/maps/dir//Av.+A%C3%A7oc%C3%AA,+492+-+Indian%C3%B3polis,+S%C3%A3o+Paulo+-+SP,+04075-023/@-23.6038501,-46.7385299,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5a10ad6ab69d:0xae7329a87e347637!2m2!1d-46.6561283!2d-23.6038718?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D",
-        "image": "shopify://shop_images/5.webp",
+        "image": "shopify://shop_images/11112025_Novembro-22.jpg",
         "layout": "left",
         "height": 650,
         "parallax": true,
