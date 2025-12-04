@@ -251,6 +251,27 @@
         "mobile_height": "auto"
       }
     },
+    "text_and_image_9C9X9C": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Bordado personalizado",
+        "text": "<p>Adicione nome e profissão direto na PDP e deixe seu jaleco com a sua identidade</p>",
+        "button_label": "Escolher um jaleco",
+        "button_link": "shopify://collections",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "featured_product_pJ3YeP": {
       "type": "featured-product",
       "blocks": {
@@ -462,6 +483,7 @@
     "collection_callout_Qtehre",
     "featured_video_rh936h",
     "hero_video_7mXp3j",
+    "text_and_image_9C9X9C",
     "featured_product_pJ3YeP",
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
