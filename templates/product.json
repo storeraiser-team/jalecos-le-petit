@@ -327,7 +327,7 @@
         "button_label": "",
         "button_link": "",
         "image": "shopify://shop_images/LePetit_Ago_105_c16ea602-a89f-4674-8f1c-9c02446520ab.jpg",
-        "layout": "right",
+        "layout": "left",
         "height": 450,
         "parallax": true,
         "parallax_direction": "left",
