@@ -185,9 +185,9 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "{{ product.metafields.custom.conteudo_em_destaque.value.imagem_1.value }}",
+        "image": "shopify://shop_images/IMG_2390.jpg",
         "image_mask": "portrait",
-        "image2": "{{ product.metafields.custom.conteudo_em_destaque.value.imagem_2.value }}",
+        "image2": "shopify://shop_images/e20fdf5560.jpg",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "{{ product.metafields.custom.conteudo_em_destaque.value.titulo_1.value }}",
