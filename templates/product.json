@@ -326,11 +326,11 @@
         "text": "<p>Cada peça é feita para trazer confiança, conforto e propósito à sua rotina.</p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify://shop_images/Image_fx_-_2025-09-08T135158.222_upscayl_3x_upscayl-standard-4x.png",
-        "layout": "left",
-        "height": 550,
+        "image": "shopify://shop_images/LePetit_Ago_105_c16ea602-a89f-4674-8f1c-9c02446520ab.jpg",
+        "layout": "right",
+        "height": 450,
         "parallax": true,
-        "parallax_direction": "top",
+        "parallax_direction": "left",
         "lazyload_images": true
       }
     },
