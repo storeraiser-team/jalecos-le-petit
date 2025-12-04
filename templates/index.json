@@ -255,7 +255,8 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image_mask": "none",
+        "image": "shopify://shop_images/Image_fx_35.jpg",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Bordado personalizado",
