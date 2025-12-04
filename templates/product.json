@@ -193,7 +193,7 @@
         "title": "{{ product.metafields.custom.conteudo_em_destaque.value.titulo_1.value }}",
         "text": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_1 | metafield_tag }}",
         "button_label": "",
-        "button_link": "",
+        "button_link": "https://jalecoslepetit.com.br/collections/acessorios-feminino",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "66",
