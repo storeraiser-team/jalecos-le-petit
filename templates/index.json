@@ -230,12 +230,13 @@
       "name": "t:sections.featured-video.presets.video.name",
       "settings": {
         "title": "",
-        "video_url": "https://vimeo.com/1143515606?share=copy&fl=sv&fe=ci",
+        "video_url": "https://vimeo.com/1143512770?share=copy&fl=sv&fe=ci",
         "divider": false
       }
     },
     "hero_video_7mXp3j": {
       "type": "hero-video",
+      "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
         "title": "",
