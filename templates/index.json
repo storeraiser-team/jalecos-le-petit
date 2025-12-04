@@ -257,7 +257,8 @@
       "settings": {
         "image": "shopify://shop_images/Image_fx_35.jpg",
         "image_mask": "square",
-        "image2_mask": "none",
+        "image2": "shopify://shop_images/Image_fx_36.jpg",
+        "image2_mask": "square",
         "subtitle": "",
         "title": "Bordado personalizado",
         "text": "<p>Adicione nome e profissão direto na PDP e deixe seu jaleco com a sua identidade</p>",
