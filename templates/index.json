@@ -225,20 +225,13 @@
         "divider": false
       }
     },
-    "hero_video_ihJzji": {
-      "type": "hero-video",
-      "name": "t:sections.hero-video.presets.video_hero.name",
+    "featured_video_rh936h": {
+      "type": "featured-video",
+      "name": "t:sections.featured-video.presets.video.name",
       "settings": {
-        "title": "Sinta o caimento. Veja o detalhe.",
-        "title_size": 44,
-        "subheading": "Jalecos premium com design autoral, conforto real e pronta entrega.",
-        "link_text": "Ver todos os produtos",
-        "link": "shopify://collections/all",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "",
-        "overlay_opacity": 24,
-        "section_height": "100vh",
-        "mobile_height": "400px"
+        "title": "",
+        "video_url": "https://vimeo.com/1143512770?share=copy&fl=sv&fe=ci",
+        "divider": false
       }
     },
     "featured_product_pJ3YeP": {
@@ -283,6 +276,7 @@
         "buy_buttons_ttRGtX",
         "description_PtdBHg"
       ],
+      "disabled": true,
       "name": "t:sections.featured-product.presets.featured_product.name",
       "settings": {
         "featured_product": "jaleco-feminino-manga-longa-nude-lille",
@@ -450,7 +444,7 @@
     "featured_collection_MgQHkP",
     "text_and_image_WgJwaK",
     "collection_callout_Qtehre",
-    "hero_video_ihJzji",
+    "featured_video_rh936h",
     "featured_product_pJ3YeP",
     "testimonials_9yPXaH",
     "text_and_image_rpi4wk",
