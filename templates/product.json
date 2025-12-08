@@ -216,7 +216,7 @@
         "title": "Jalecos Le Petit",
         "text": "<p>Acinturados, confortáveis e tecnológicos.</p>",
         "button_label": "Conheça nossos modelos exclusivos",
-        "button_link": "https://jalecoslepetit.com.br/collections/scrubs",
+        "button_link": "shopify://collections/jalecos-femininos",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "66",
