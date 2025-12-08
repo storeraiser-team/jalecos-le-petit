@@ -237,7 +237,7 @@
         "link_text": "",
         "link": "",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "{{ product.metafields.custom.conteudo_em_destaque.value.link_video.value }}",
+        "video_url": "https://youtube.com/shorts/0JTDV3I91Xk",
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "100vh"
