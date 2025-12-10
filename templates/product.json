@@ -181,29 +181,6 @@
         "divider": false
       }
     },
-    "text_and_image_kHfyFX": {
-      "type": "text-and-image",
-      "name": "t:sections.text-and-image.presets.image_with_text.name",
-      "settings": {
-        "image": "{{ product.metafields.custom.conteudo_em_destaque.value.imagem_1.value }}",
-        "image_mask": "portrait",
-        "image2": "{{ product.metafields.custom.conteudo_em_destaque.value.imagem_2.value }}",
-        "image2_mask": "portrait",
-        "subtitle": "",
-        "title": "{{ product.metafields.custom.conteudo_em_destaque.value.titulo_1.value }}",
-        "text": "<p>{{ product.metafields.custom.conteudo_em_destaque.value.texto_2 | metafield_tag }}</p>",
-        "button_label": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_do_botao_1.value }}",
-        "button_link": "{{ product.metafields.custom.conteudo_em_destaque.value.link_do_botao_1.value }}",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "66",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
     "text_and_image_nRHWNp": {
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
@@ -214,7 +191,7 @@
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "{{ product.metafields.custom.conteudo_em_destaque.value.titulo_1.value }}",
-        "text": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_2 | metafield_tag }}",
+        "text": "<p>{{ product.metafields.custom.conteudo_em_destaque.value.texto_2 | metafield_tag }}</p>",
         "button_label": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_do_botao_2.value }}",
         "button_link": "{{ product.metafields.custom.conteudo_em_destaque.value.link_do_botao_2.value }}",
         "button_style": "primary",
@@ -358,7 +335,6 @@
   "order": [
     "main",
     "text_with_icons_GnANgc",
-    "text_and_image_kHfyFX",
     "text_and_image_nRHWNp",
     "hero_video_4NEdhC",
     "testimonials_d4q8Pj",
