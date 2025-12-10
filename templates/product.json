@@ -191,7 +191,7 @@
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "{{ product.metafields.custom.conteudo_em_destaque.value.titulo_1.value }}",
-        "text": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_2 | metafield_tag }}",
+        "text": "<p>{{ product.metafields.custom.conteudo_em_destaque.value.texto_2 | metafield_tag }}</p>",
         "button_label": "{{ product.metafields.custom.conteudo_em_destaque.value.texto_do_botao_1.value }}",
         "button_link": "{{ product.metafields.custom.conteudo_em_destaque.value.link_do_botao_1.value }}",
         "button_style": "primary",
@@ -345,7 +345,7 @@
       "type": "product-recommendations",
       "settings": {
         "product_recommendations_heading": "Você também pode gostar",
-        "related_count": 4,
+        "related_count": 3,
         "products_per_row": 3
       }
     },
