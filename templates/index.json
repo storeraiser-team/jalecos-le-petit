@@ -450,6 +450,9 @@
         "text_jCP9nL",
         "form_6eLFJi"
       ],
+      "custom_css": [
+        ".newsletter-section__content form {display: inherit; padding-left: 15dvw;}"
+      ],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
         "align_text": "center",
