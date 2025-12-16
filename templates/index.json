@@ -451,7 +451,8 @@
         "form_6eLFJi"
       ],
       "custom_css": [
-        ".input-group .input-group-field {min-width: 250px;}"
+        ".input-group .input-group-field {min-width: 250px;}",
+        ".text-center .newsletter-section__content form {display: grid;}"
       ],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
