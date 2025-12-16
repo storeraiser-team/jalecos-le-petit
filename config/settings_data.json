@@ -256,7 +256,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".pplrlabel {background: #780c23 !important; padding-left: 10px !important; padding-right: 5px !important; border-radius: 6px !important; color: white !important; align-items: center !important; justify-content: center !important; display: flex !important;}"
+      ".pplr-wrapper .pplr-checkbox .pplr-quero-bordado-de-nome-e-profisso-por-4990 {background: #780c23 !important; padding-left: 10px !important; padding-right: 5px !important; border-radius: 6px !important; color: white !important; align-items: center !important; justify-content: center !important; display: flex !important;}"
     ]
   }
 }
