@@ -256,7 +256,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".pplrlabel {background: #780C23; padding-left: 10px; padding-right: 5px; border-radius: 6px; color: white; align-items: center; justify-content: center; display: flex;}"
+      ".pplrlabel {background: #780c23 !important; padding-left: 10px !important; padding-right: 5px !important; border-radius: 6px !important; color: white !important; align-items: center !important; justify-content: center !important; display: flex !important;}"
     ]
   }
 }
