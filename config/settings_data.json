@@ -253,5 +253,10 @@
       "checkout_sidebar_background_image": "",
       "checkout_use_header_image": false
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".pplrlabel {background: #780C23; padding-left: 10px; padding-right: 5px; border-radius: 6px; color: white; align-items: center; justify-content: center; display: flex;}"
+    ]
   }
 }
