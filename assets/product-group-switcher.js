@@ -14,7 +14,7 @@
           var productUrl = e.target.getAttribute('data-product-url');
 
           if (productUrl) {
-            self.loadProduct(productUrl);
+            window.location.href = productUrl
           }
         }
       });
