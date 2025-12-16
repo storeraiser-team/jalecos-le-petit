@@ -451,7 +451,7 @@
         "form_6eLFJi"
       ],
       "custom_css": [
-        ".newsletter-section__content form {display: inherit; padding-left: 10dvw;}"
+        ".input-group .input-group-field {min-width: 250px;}"
       ],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
