@@ -39,7 +39,7 @@
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify://shop_images/Desktop.jpg",
-            "image_mobile": "shopify://shop_images/Mobile.jpg",
+            "image_mobile": "shopify://shop_images/celular.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
