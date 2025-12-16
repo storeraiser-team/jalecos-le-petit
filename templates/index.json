@@ -451,7 +451,7 @@
         "form_6eLFJi"
       ],
       "custom_css": [
-        ".newsletter-section__content form {display: inherit; padding-left: 15dvw;}"
+        ".newsletter-section__content form {display: inherit; padding-left: 10dvw;}"
       ],
       "name": "t:sections.newsletter.presets.email_signup.name",
       "settings": {
