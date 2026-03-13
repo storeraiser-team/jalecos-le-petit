@@ -38,7 +38,7 @@
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/BANNER_Pix.jpg",
+            "image": "shopify://shop_images/BannerPix.jpg",
             "image_mobile": "shopify://shop_images/BANNER_PIX_CELULAR.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
